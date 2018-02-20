@@ -1,0 +1,69 @@
+@import 'style.css';
+
+.rating-progress {
+    position: relative;
+    background: none;
+    width: 160px;
+    height: 160px;
+    border: 7px solid #d8d8d8;
+    border-radius: 50%;
+}
+
+.rating-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    z-index: -1
+}
+
+.rating-progress_svg {
+  position: absolute;
+  fill: transparent;
+  stroke-width: 12px;
+  -webkit-transform: scale(1.155);
+  -ms-transform: scale(1.155);
+  transform: scale(1.155);
+  -webkit-transition: 3s stroke-dasharray;
+  -o-transition: 3s stroke-dasharray;
+  transition: 3s stroke-dasharray;
+  /* border-width: 10px;
+     border-image-source: linear-gradient(301deg, #b4ec51, #429321);
+    border-image-slice: 1;  */
+}
+.rating-progress_svg.first {
+  stroke-dasharray: 15%, 300%;
+  -webkit-transform: scale(1.155) rotate(270deg);
+  -ms-transform: scale(1.155) rotate(270deg);
+  transform: scale(1.155) rotate(270deg);
+}
+
+.rating-progress_svg.second {
+  stroke-dasharray: 50%, 300%;
+  -webkit-transform: scale(1.155) rotate(270deg);
+  -ms-transform: scale(1.155) rotate(270deg);
+  transform: scale(1.155) rotate(270deg);
+}
+
+.rating-progress_svg.third {
+  stroke-dasharray: 140%, 300%;
+  -webkit-transform: scale(1.155) rotate(270deg);
+  -ms-transform: scale(1.155) rotate(270deg);
+  transform: scale(1.155) rotate(270deg);
+}
+
+.rating-progress_svg.fourth {
+  stroke-dasharray: 210%, 300%;
+  -webkit-transform: scale(1.155) rotate(270deg);
+  -ms-transform: scale(1.155) rotate(270deg);
+  transform: scale(1.155) rotate(270deg);
+}
+
+.rating-progress_svg.fifth {
+  stroke-dasharray: 300%, 300%;
+  -webkit-transform: scale(1.155) rotate(270deg);
+  -ms-transform: scale(1.155) rotate(270deg);
+  transform: scale(1.155) rotate(270deg);
+}
