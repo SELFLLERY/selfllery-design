@@ -31,7 +31,7 @@ var path = {
         svg: ['svg/*.svg']
     }
 };
-
+// .pipe(cssmin())
 gulp.task('sass', function () {
     gulp.src(path.src.style)
         .pipe(plumber({
@@ -41,7 +41,7 @@ gulp.task('sass', function () {
         .pipe(sass({includePaths: ['sass/components/variables.scss','sass/components/mixins.scss'],style: 'expanded'}))
         .pipe(autoprefixer())
         .pipe(rename({suffix: '.min'}))
-        .pipe(cssmin())
+
         .pipe(gulp.dest(path.build.css))
         .pipe(browserSync.stream({match: '**/*.css'}));
 });
