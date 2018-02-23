@@ -22,7 +22,7 @@ var path = {
         css: 'media/css/'
     },
     src: {
-        style: 'sass/app.scss'
+        style: ['sass/app.scss', 'sass/**/*.scss']
     },
     watch: {
         style: ['sass/**/*.scss', 'sass/*.scss'],
