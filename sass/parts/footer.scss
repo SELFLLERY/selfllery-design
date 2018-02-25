@@ -1,0 +1,43 @@
+/*footer*/
+.footer-bg {
+  background-color: #f1f1f1;
+  margin-top: 25px;
+}
+.nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #4a4a4a;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #4a4a4a;
+}
+
+.lang-link {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #9b9b9b;
+}
+.lang-link:hover {
+  color: #9b9b9b;
+}
+
+.lang_achor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flag-block {
+  width: 85px;
+}
+
+.foot-copy {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: #9b9b9b
+}

@@ -8,11 +8,64 @@
   width: 77px;
   height: 21px;
   border-radius: 10.5px;
-  background-color: #7ed321;
+  background-color: #9b9b9b;
   border: none;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: -0.5px;
   color: #d8d8d8; }
   .form-send .form-send_btn.green {
-    color: #befa82; }
+    color: #befa82;
+    background: #7ed321; }
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10px; }
+  .comment:nth-child(1) {
+    margin-top: 0; }
+  .comment .avatar-wrap {
+    width: 44px;
+    height: 44px;
+    background-color: #d8d8d8;
+    border-radius: 50%; }
+  .comment-right-side {
+    width: calc(100% - 54px); }
+  .comment .comment-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
+    .comment .comment-info .user-name {
+      font-size: 12px;
+      color: #4a4a4a; }
+    .comment .comment-info .user-nick {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      color: #4a4a4a; }
+    .comment .comment-info .comment-time {
+      margin-right: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #d8d8d8;
+      display: inline-block;
+      vertical-align: middle; }
+    .comment .comment-info .comment-menu_btn {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      vertical-align: middle; }
+  .comment .comment-text {
+    font-size: 14px;
+    color: #4a4a4a; }

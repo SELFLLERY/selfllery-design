@@ -1,0 +1,11 @@
+.mini-photos-grid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  .mini-photo{
+    background: #ccc;
+    width: 69px;
+    height: 69px
+  }
+}

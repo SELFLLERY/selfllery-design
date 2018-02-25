@@ -12,4 +12,21 @@ $(document).ready(function () {
         blockhidden.show();
         searchblock.hide();
     });
+
+
+    $(function () {
+        $('.show_all').click(function (e) {
+            e.stopPropagation();
+            $('.like-show_block').toggle();
+        });
+    });
+
+    /*CUSTOM SCROLL /start/*/
+    var customScroll = new PerfectScrollbar('.comments-wrap', {
+        wheelSpeed: .2,
+        swipeEasing: true,
+        minScrollbarLength: 20,
+        wheelPropagation: true
+    });
+    /*CUSTOM SCROLL /end/*/
 });

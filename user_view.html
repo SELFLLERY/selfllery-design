@@ -6,583 +6,589 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"-->
+          <!--integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=cyrillic"
           rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style_user_view.css">
+    <link rel="stylesheet" href="media/css/app.min.css">
+    <link rel="stylesheet" href="media/css/desktop/user_view.min.css">
 
     <title>Selfllery</title>
 </head>
 <body>
-<header id="top">
-    <div class="header-top">
-        <div class="container">
-            <div class="row justify-content-center text-center py-2">
-                <a href="#" class="align-self-center">Private pre-sale has been started! Join now to buy YOU tokens with
-                    discount!</a>
-            </div><!--/row-->
-        </div><!--/container-->
-    </div><!--/header-top-->
+<div class="user-view-page page">
+    <header id="top">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-center text-center py-2">
+                    <a href="#" class="align-self-center">Private pre-sale has been started! Join now to buy YOU tokens
+                        with discount!</a>
+                </div><!--/row-->
+            </div><!--/container-->
+        </div><!--/header-top-->
 
-    <div class="header">
-        <div class="container">
-            <div class="row py-2 align-items-center">
-                <div class="col-sm-3 col-6 mb-md-0 mb-">
-                    <a href="#">
-                        <img src="img/logo.png" width="165" alt="logo">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-3 col-6">
-                    <div class="row justify-content-end mx-auto">
-                        <a href="#" class="btn btn-success position-relative" role="button">
-                            <span class="plus">+</span>
-                            <span class="btn-text">Upload photo</span>
+        <div class="header">
+            <div class="container">
+                <div class="row py-2 align-items-center">
+                    <div class="col-sm-3 col-6 mb-md-0 mb-">
+                        <a href="#">
+                            <img src="img/logo.png" width="165" alt="logo">
                         </a>
                     </div>
-                </div>
-                <div class="col-lg-5 col-md-6 col-12 text-center header-block">
-                    <div class="row justify-content-around align-items-center">
-                        <div class="col-lg-2 col-md-2 col-2 search-button d-sm-block d-none">
-                            <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                               aria-controls="collapseExample">
-                                <img src="img/search.svg" width="23" height="23" alt="search">
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <div class="row justify-content-end mx-auto">
+                            <a href="#" class="btn btn-success position-relative" role="button">
+                                <span class="plus">+</span>
+                                <span class="btn-text">Upload photo</span>
                             </a>
                         </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-12 text-center header-block">
+                        <div class="row justify-content-around align-items-center">
+                            <div class="col-lg-2 col-md-2 col-2 search-button d-sm-block d-none">
+                                <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                   aria-controls="collapseExample">
+                                    <img src="img/search.svg" width="23" height="23" alt="search">
+                                </a>
+                            </div>
 
-                        <div class="col-lg-10 col-sm-10 col-11 wrap hidden-block align-items-center">
-                            <a href="#">
+                            <div class="col-lg-10 col-sm-10 col-11 wrap hidden-block align-items-center">
+                                <a href="#">
                     <span style="width: 23px">
                       <img src="img/ring_on.svg" alt="ring">
                     </span>
-                            </a>
-                            <a href="#">
+                                </a>
+                                <a href="#">
                     <span style="width: 29px">
                       <img src="img/chat_on.svg" width="29" height="24" alt="chat">
                     </span>
-                            </a>
-                            <div class="dropdown">
-                                <img src="img/you.svg" width="23" height="23" alt="you">
-                                <b class="color-purple you_number ml-1">0.000</b>
-                                <img src="img/userpic.png" width="60" class="pl-3" alt="userpic">
-                                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="img/arrow_drop.png" width="17" alt="arrow_drop">
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                                    <!-- <a class="dropdown-item" href="#">
-                                      <img src="img/userlike.png" alt="userlike" class="pr-2"> My Likes
-                                    </a>
-                                    <a class="dropdown-item" href="#">
-                                      <img src="img/usercommented.png" alt="usercommented" class="pr-2"> My Commented
-                                    </a> -->
-                                    <a class="dropdown-item" href="#">
+                                </a>
+                                <div class="dropdown">
+                                    <img src="img/you.svg" width="23" height="23" alt="you">
+                                    <b class="color-purple you_number ml-1">0.000</b>
+                                    <img src="img/userpic.png" width="60" class="ml-3" alt="userpic">
+                                    <button class="btn dropdown-toggle dropdown-toggle_arrow" type="button"
+                                            id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                        <img src="img/arrow_drop.png" width="17" alt="arrow_drop">
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu_header dropdown-menu-right"
+                                         aria-labelledby="dropdownMenu2">
+                                        <!-- <a class="dropdown-item" href="#">
+                                          <img src="img/userlike.png" alt="userlike" class="pr-2"> My Likes
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                          <img src="img/usercommented.png" alt="usercommented" class="pr-2"> My Commented
+                                        </a> -->
+                                        <a class="dropdown-item dropdown-item_header" href="#">
                         <span class="mr-2">
                           <img src="img/feed_usermenu.svg" width="17" alt="userlike">
                         </span>
-                                        My Feed
-                                    </a>
-                                    <a class="dropdown-item" href="#">
+                                            My Feed
+                                        </a>
+                                        <a class="dropdown-item dropdown-item_header" href="#">
                         <span class="mr-2">
                           <img src="img/favorites_usermenu.svg" width="16" height="" alt="editprofile">
                         </span>
-                                        My Favorites
-                                    </a>
-                                    <a class="dropdown-item" href="#">
+                                            My Favorites
+                                        </a>
+                                        <a class="dropdown-item dropdown-item_header" href="#">
                         <span class="mr-2">
                           <img src="img/edit_usermenu.svg" width="15" alt="editprofile">
                         </span>
-                                        Edit Profile
-                                    </a>
-                                    <a class="dropdown-item" href="#">
+                                            Edit Profile
+                                        </a>
+                                        <a class="dropdown-item dropdown-item_header" href="#">
                         <span class="mr-2">
                           <img src="img/signout_usermenu.svg" width="17" alt="signout">
                         </span>
-                                        Sign Out
-                                    </a>
-                                    <div class="dropdown-divider border-0"></div>
-                                    <a class="dropdown-item" href="#">
+                                            Sign Out
+                                        </a>
+                                        <div class="dropdown-divider border-0"></div>
+                                        <a class="dropdown-item dropdown-item_header" href="#">
                         <span class="mr-2">
                           <img src="img/invite_usermenu.svg" width="17" alt="invite">
                         </span>
-                                        Invite Friends
-                                    </a>
+                                            Invite Friends
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-10 col-sm-10 col-11 collapse search-block" id="collapseExample">
-                            <form action="#">
+                            <div class="col-lg-10 col-sm-10 col-11 collapse search-block" id="collapseExample">
+                                <form action="#">
                     <span class="form-search">
                       <input type="search" class="input-search card card-body">
                       <img src="img/close_searh.png" class="close-search" width="21" alt="close_searh">
                     </span>
-                            </form>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/row-->
+            </div><!--/container-->
+        </div><!--/header-->
+    </header>
+
+    <div class="main">
+
+
+        <div class="section-gallery-top">
+            <div class="section-gallery-top_wrap">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-md-2">
+                            <img src="img/userpic.png" alt="" class="gallery-ava_big"/>
+                        </div>
+                        <div class="col-md-4">
+                            <h2 class="gallery_user-name">user-name</h2>
+                            <p class="gallery_user-nick">asfas</p>
+                            <p class="gallery_user_location">asfas</p>
                         </div>
                     </div>
                 </div>
-            </div><!--/row-->
-        </div><!--/container-->
-    </div><!--/header-->
-</header>
-
-<div class="main">
-
-
-    <div class="section-gallery-top">
-        <div class="section-gallery-top_wrap">
-            <div class="container">
-                <div class="row justify-content-start">
-                    <div class="col-md-2">
-                        <img src="img/userpic.png" alt="" class="gallery-ava_big"/>
-                    </div>
-                    <div class="col-md-4">
-                        <h2 class="gallery_user-name">user-name</h2>
-                        <p class="gallery_user-nick">asfas</p>
-                        <p class="gallery_user_location">asfas</p>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
 
-    <div class="section-gallery-info container">
-        <div class="row">
-            <div class="info-wrap">
-                <div class="left-side">
-                    <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
-                </div>
-                <div class="right-side">
-                    <p class="gallery-info_numbers">50</p>
-                    <p class="gallery-info_description">rating</p>
-                </div>
-            </div>
-            <div class="info-wrap">
-                <div class="left-side">
-                    <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
-                </div>
-                <div class="right-side">
-                    <p class="gallery-info_numbers">300</p>
-                    <p class="gallery-info_description">views</p>
-                </div>
-            </div>
-            <div class="info-wrap">
-                <div class="left-side">
-                    <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
-                </div>
-                <div class="right-side">
-                    <p class="gallery-info_numbers">200</p>
-                    <p class="gallery-info_description">photos</p>
-                </div>
-            </div>
-            <div class="info-wrap">
-                <div class="left-side">
-                    <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
-                </div>
-                <div class="right-side">
-                    <p class="gallery-info_numbers">100</p>
-                    <p class="gallery-info_description">followers</p>
-                </div>
-            </div>
-            <div class="info-wrap">
-                <div class="left-side">
-                    <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
-                </div>
-                <div class="right-side">
-                    <p class="gallery-info_numbers">100</p>
-                    <p class="gallery-info_description">following</p>
-                </div>
-            </div>
-            <button type="button" class="gallery_send-message">
-                Send Message
-            </button>
-        </div>
-    </div>
-
-
-    <div class="section-contests">
-        <div class="container">
-            <div class="row justify-content-lg-between justify-content-center mx-0 my-4">
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="https://images.selfllery.com/photo/2018-02-09/2954079.jpg" class="photo-large"
-                                 alt="#">
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="https://selfllery.com/photo/2017-12-03/2945737.jpg" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="https://selfllery.com/photo/2018-02-10/2954437.jpg" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="https://selfllery.com/photo/2018-02-10/2954427.jpg" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-
-                <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
-                    <a href="/photos/2953253/" class="d-inline-block">
-                        <div class="photo-wrap">
-                            <img src="#" class="photo-large" alt="#">
-
-                            <div class="photo-info-wrap">
-                                <div class="photo-info">
-                                    <div class="photo-rating mb-3">
-                                        <div class="photo-likes">
-                                            <img src="img/like.png" width="23" alt="like">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-views">
-                                            <img src="img/view.png" width="24" alt="view">
-                                            <span>000</span>
-                                        </div>
-                                        <div class="photo-comments">
-                                            <img src="img/commented.png" width="22" alt="commented">
-                                            <span>000</span>
-                                        </div>
-                                    </div><!--/photo-rating-->
-                                    <div class="photo-loaded mb-">
-                                        <p class="mb-0">0 hours ago</p>
-                                    </div>
-                                </div><!--/photo-info-->
-                            </div><!--/photo-info-wrap-->
-
-                        </div><!--/photo-wrap-->
-                    </a>
-                </div><!--/photo-block-->
-            </div><!--/row-->
-        </div><!--/container-->
-    </div><!--/section-contests-->
-
-
-    <div class="gallery-bottom">
-        <div class="container">
+        <div class="section-gallery-info container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="info-wrap">
+                    <div class="left-side">
+                        <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
+                    </div>
+                    <div class="right-side">
+                        <p class="gallery-info_numbers">50</p>
+                        <p class="gallery-info_description">rating</p>
+                    </div>
+                </div>
+                <div class="info-wrap">
+                    <div class="left-side">
+                        <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
+                    </div>
+                    <div class="right-side">
+                        <p class="gallery-info_numbers">300</p>
+                        <p class="gallery-info_description">views</p>
+                    </div>
+                </div>
+                <div class="info-wrap">
+                    <div class="left-side">
+                        <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
+                    </div>
+                    <div class="right-side">
+                        <p class="gallery-info_numbers">200</p>
+                        <p class="gallery-info_description">photos</p>
+                    </div>
+                </div>
+                <div class="info-wrap">
+                    <div class="left-side">
+                        <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
+                    </div>
+                    <div class="right-side">
+                        <p class="gallery-info_numbers">100</p>
+                        <p class="gallery-info_description">followers</p>
+                    </div>
+                </div>
+                <div class="info-wrap">
+                    <div class="left-side">
+                        <img src="img/userpic.png" alt="" class="gallery-info_ico"/>
+                    </div>
+                    <div class="right-side">
+                        <p class="gallery-info_numbers">100</p>
+                        <p class="gallery-info_description">following</p>
+                    </div>
+                </div>
+                <button type="button" class="gallery_send-message">
+                    Send Message
+                </button>
+            </div>
+        </div>
+
+
+        <div class="section-contests">
+            <div class="container">
+                <div class="row justify-content-lg-between justify-content-center mx-0 my-4">
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="https://images.selfllery.com/photo/2018-02-09/2954079.jpg" class="photo-large"
+                                     alt="#">
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="https://selfllery.com/photo/2017-12-03/2945737.jpg" class="photo-large"
+                                     alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="https://selfllery.com/photo/2018-02-10/2954437.jpg" class="photo-large"
+                                     alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="https://selfllery.com/photo/2018-02-10/2954427.jpg" class="photo-large"
+                                     alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+
+                    <div class="photo-block mb-2_5 mr-xl-0 mr-sm-2 mr-2">
+                        <a href="/photos/2953253/" class="d-inline-block">
+                            <div class="photo-wrap">
+                                <img src="#" class="photo-large" alt="#">
+
+                                <div class="photo-info-wrap">
+                                    <div class="photo-info">
+                                        <div class="photo-rating mb-3">
+                                            <div class="photo-likes">
+                                                <img src="img/like.png" width="23" alt="like">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-views">
+                                                <img src="img/view.png" width="24" alt="view">
+                                                <span>000</span>
+                                            </div>
+                                            <div class="photo-comments">
+                                                <img src="img/commented.png" width="22" alt="commented">
+                                                <span>000</span>
+                                            </div>
+                                        </div><!--/photo-rating-->
+                                        <div class="photo-loaded mb-">
+                                            <p class="mb-0">0 hours ago</p>
+                                        </div>
+                                    </div><!--/photo-info-->
+                                </div><!--/photo-info-wrap-->
+
+                            </div><!--/photo-wrap-->
+                        </a>
+                    </div><!--/photo-block-->
+                </div><!--/row-->
+            </div><!--/container-->
+        </div><!--/section-contests-->
+
+
+        <div class="gallery-bottom">
+            <div class="container gallery-bottom_wrap">
+                <div class="gallery-bottom_left-side">
                     <h3 class="gallery-bottom_title">
                         Username Username
                     </h3>
@@ -594,13 +600,207 @@
                         bla blablabla blabla!
                     </p>
                 </div>
-                <div class="col-md-6 offset-md-1">
+                <div class="gallery-bottom_right-side">
+                    <div class="comments-section">
+                        <div class="form-send">
+                            <textarea name="" id="" class="text-area-comment">
 
+                            </textarea>
+                            <button class="form-send_btn green mr-10">Send</button>
+                            <button class="form-send_btn">Cancel</button>
+                        </div>
+                        <div class="comments-wrap">
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <img src="/img/userpic.png" alt="">
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <img src="/img/userpic.png" alt="">
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <img src="/img/userpic.png" alt="">
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">asfas Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <img src="/img/userpic.png" alt="">
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <img src="/img/userpic.png" alt="">
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        <!--!-->
+        <div class="mini-photos-grid container">
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+            <div class="mini-photo">
+                <img src="img/imgs/images.jpeg">
+            </div>
+        </div>
+    </div>
 </div>
 
 <footer class="footer-bg">
@@ -746,7 +946,7 @@
 
 
 <!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery, Popper.js, Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -757,6 +957,8 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+
+<script src="js/libs/custom-scroll.js"></script>
 <script src="js/script.js"></script>
 
 </body>
