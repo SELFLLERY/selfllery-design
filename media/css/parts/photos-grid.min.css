@@ -1,0 +1,113 @@
+/*photo-block*/
+.photo-block {
+  position: relative;
+  width: 312px;
+  height: 312px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #d8d8d8; }
+
+.photo-wrap {
+  display: inline-block;
+  position: relative;
+  height: 312px;
+  width: 312px; }
+
+.photo-large {
+  cursor: pointer;
+  height: 312px;
+  width: 312px; }
+
+.photo-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 78px;
+  /*height: 35%;*/
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#282828));
+  background-image: linear-gradient(to bottom, transparent, #282828);
+  background-blend-mode: multiply; }
+
+.photo-info-wrap {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.6px;
+  opacity: 0;
+  /*background-image: linear-gradient(135deg, #3023ae, #c86dd7);*/
+  /* background-image: linear-gradient(#9b9b9b, #9b9b9b);
+  background-blend-mode: multiply; */
+  background-color: rgba(74, 74, 74, 0.65);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s; }
+
+.photo-info-wrap:hover {
+  opacity: 0.85; }
+
+.photo-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 250px;
+  margin: auto; }
+
+.photo-loaded {
+  font-size: 13px; }
+
+.ava {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  border-radius: 100px;
+  /*border: 2px solid transparent;*/ }
+
+.photo-user {
+  /*opacity: 1;*/
+  bottom: 13px;
+  left: 14px;
+  position: absolute;
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #282828);
+  background-blend-mode: multiply; */
+  /*  display: table;
+  right: 22px;
+  text-align: left; */ }
+
+.user-info {
+  display: inline-block;
+  vertical-align: middle;
+  /*color: #fff;*/
+  margin-left: 7px; }
+
+.user-info h3 {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.6px; }
+
+.user-info p {
+  font-size: 12px;
+  letter-spacing: -0.5px; }
+
+.user-info a {
+  color: #f1f1f1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  font-weight: 600; }
