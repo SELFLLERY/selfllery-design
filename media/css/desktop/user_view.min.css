@@ -142,7 +142,6 @@
   border-radius: 10px;
   background-color: #ffffff;
   padding: 20px;
-  border: 1px solid #000;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -152,7 +151,8 @@
   .modal-show .modal-block-close {
     position: absolute;
     right: 6px;
-    top: 3px; }
+    top: 3px;
+    cursor: pointer; }
   .modal-show .modal-block-title {
     font-size: 14px;
     font-weight: normal;
@@ -171,13 +171,10 @@
     border-radius: 3px;
     border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 23px; }
-    .modal-show .modal-block-src::-webkit-input-placeholder {
-      font-size: 12px; }
-    .modal-show .modal-block-src:-ms-input-placeholder {
-      font-size: 12px; }
-    .modal-show .modal-block-src::placeholder {
-      font-size: 12px; }
+    margin-bottom: 23px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 5px; }
   .modal-show .modal-block-social {
     font-size: 14px;
     font-weight: 600;
@@ -185,7 +182,6 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
     color: #4a4a4a;
     /* vertical-align:  middle; */
     margin-bottom: 10px; }

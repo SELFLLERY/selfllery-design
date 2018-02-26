@@ -153,8 +153,8 @@
     border-radius: 10px;
     background-color: #ffffff;
     padding: 20px;
-    border: 1px solid #000;
-    position:absolute;
+    //border: 1px solid #000;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -164,6 +164,7 @@
       position: absolute;
       right: 6px;
       top: 3px;
+      cursor: pointer;
     }
     &-title {
       font-size: 14px;
@@ -178,16 +179,16 @@
       height: 36px;
       margin-bottom:  14px;
     }
-    &-src {
+    &-src  {
       width: 363px;
       height: 27px;
       border-radius: 3px;
       border: 1px solid #ccc;
       padding: 10px;
       margin-bottom:  23px;
-      &::placeholder {
-        font-size: 12px;
-      }
+      background: #fff;
+      font-size: 12px;
+      line-height: 5px;
     }
     &-social {
       font-size: 14px;
@@ -196,10 +197,11 @@
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
-      text-align: left;
+      //text-align: left;
       color: #4a4a4a;
       /* vertical-align:  middle; */
       margin-bottom: 10px;
+
       &-img {
         margin-right: 11px;
       }
