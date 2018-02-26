@@ -52,13 +52,14 @@ $(document).ready(function () {
 
         $('#button-share').click(function (e) {
             e.preventDefault();
-            $(".overlay, .modal-block").css({'display': 'block'});
-            $('.overlay').fadeIn(1000).fadeTo("slow",0.8);
+            $(".overlay, .modal-block").fadeIn(300).fadeTo("slow",1);
+            $('.overlay').fadeIn(500).fadeTo("slow", 1);
 
         });
         $('.modal-block-close, .overlay').click(function (e) {
             e.preventDefault();
-            $('.modal-block, .overlay').hide();
+            $(".overlay, .modal-block").fadeOut(300).fadeTo("slow",1);
+            $('.modal-block, .overlay').fadeOut(500);
         });
 
     });
