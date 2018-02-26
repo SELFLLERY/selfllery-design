@@ -29,4 +29,38 @@ $(document).ready(function () {
         wheelPropagation: true
     });
     /*CUSTOM SCROLL /end/*/
+
+    /*modal full size photo /start/*/
+    $(function () {
+
+        $('#fullsize').click(function (e) {
+            e.preventDefault();
+            var $src = $("this").attr("src");
+            $(".popup-show").css({'display': 'block'});
+            $(".img-show img").attr("src", $src);
+        });
+
+        $(".close, .overlay").click(function () {
+            $(".popup-show").hide();
+        });
+
+    });
+    /*modal full size photo /end/*/
+
+    /*modal form /start/*/
+    $(function () {
+
+        $('#button-share').click(function (e) {
+            e.preventDefault();
+            $(".overlay, .modal-block").css({'display': 'block'});
+            $('.overlay').fadeIn(1000).fadeTo("slow",0.8);
+
+        });
+        $('.modal-block-close, .overlay').click(function (e) {
+            e.preventDefault();
+            $('.modal-block, .overlay').hide();
+        });
+
+    });
+    /*modal form /end/*/
 });
