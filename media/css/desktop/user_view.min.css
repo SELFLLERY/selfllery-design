@@ -122,3 +122,72 @@
   overflow-x: hidden;
   overflow-y: auto;
   position: relative; }
+
+.modal-show .overlay {
+  position: fixed;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(74, 74, 74, 0.65);
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10; }
+
+.modal-show .modal-block {
+  display: none;
+  width: 414px;
+  height: 225px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 20; }
+  .modal-show .modal-block-close {
+    position: absolute;
+    right: 6px;
+    top: 3px; }
+  .modal-show .modal-block-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    width: 315px;
+    height: 36px;
+    margin-bottom: 14px; }
+  .modal-show .modal-block-src {
+    width: 363px;
+    height: 27px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 23px; }
+    .modal-show .modal-block-src::-webkit-input-placeholder {
+      font-size: 12px; }
+    .modal-show .modal-block-src:-ms-input-placeholder {
+      font-size: 12px; }
+    .modal-show .modal-block-src::placeholder {
+      font-size: 12px; }
+  .modal-show .modal-block-social {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    /* vertical-align:  middle; */
+    margin-bottom: 10px; }
+    .modal-show .modal-block-social-img {
+      margin-right: 11px; }
