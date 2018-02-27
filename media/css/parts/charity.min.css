@@ -1,0 +1,48 @@
+.rating-progress {
+  position: relative;
+  background: none;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #d8d8d8;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .rating-progress_svg {
+    position: absolute;
+    fill: transparent;
+    stroke-width: 12px;
+    -webkit-transform: scale(1.155);
+    transform: scale(1.155);
+    -webkit-transition: 3s stroke-dasharray;
+    transition: 3s stroke-dasharray;
+    z-index: 10; }
+    .rating-progress_svg.first {
+      stroke-dasharray: 15%, 300%;
+      -webkit-transform: scale(1.155) rotate(270deg);
+      transform: scale(1.155) rotate(270deg); }
+    .rating-progress_svg.second {
+      stroke-dasharray: 50%, 300%;
+      -webkit-transform: scale(1.155) rotate(270deg);
+      transform: scale(1.155) rotate(270deg); }
+    .rating-progress_svg.third {
+      stroke-dasharray: 140%, 300%;
+      -webkit-transform: scale(1.155) rotate(270deg);
+      transform: scale(1.155) rotate(270deg); }
+    .rating-progress_svg.fourth {
+      stroke-dasharray: 210%, 300%;
+      -webkit-transform: scale(1.155) rotate(270deg);
+      transform: scale(1.155) rotate(270deg); }
+    .rating-progress_svg.fifth {
+      stroke-dasharray: 300%, 300%;
+      -webkit-transform: scale(1.155) rotate(270deg);
+      transform: scale(1.155) rotate(270deg); }
+
+.rating-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 147px;
+  width: 147px;
+  border-radius: 50%;
+  z-index: 0; }
