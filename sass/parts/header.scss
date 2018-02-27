@@ -81,6 +81,14 @@
   height: 60px;
   line-height: 60px;
 }
+
+.dropdown_menu {
+  width: 200px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .input-search {
   width: 284px;
   height: 36px;
