@@ -44,7 +44,7 @@
     top: -33px; }
   .photos-page .dropdown-item_like {
     display: inline;
-    padding: 8px; }
+    padding: 0px; }
   .photos-page .dropdown-item_like:focus,
   .photos-page .dropdown-item_like:hover {
     background-color: transparent; }
@@ -99,6 +99,8 @@
     color: #4a4a4a; }
   .photos-page .full-width {
     cursor: pointer; }
+  .photos-page .photo-user_comment .rating-progress-user_comment {
+    top: 13px; }
   .photos-page .user-info_comment {
     display: inline-block;
     vertical-align: middle;
@@ -166,6 +168,9 @@
     width: 100%; }
   .photos-page .visitors-title {
     text-decoration: underline; }
+  .photos-page .visitors-img .rating-progress-user_comment {
+    top: 10px;
+    margin-right: 8px; }
   .photos-page .visitors-img img {
     border-radius: 50%; }
   .photos-page .comment-textarea {
@@ -218,6 +223,14 @@
     color: #befa82; }
   .photos-page .btn-secondary.btn-comment {
     color: #d8d8d8; }
+  .photos-page .comments-wrap {
+    padding-right: 25px;
+    margin-top: 20px;
+    height: 540px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative; }
   @media (max-width: 570px) {
     .photos-page .author-photo {
       -webkit-box-orient: vertical;

@@ -65,11 +65,26 @@
                       <img src="/img/header/chat_on.svg" width="29" height="24" alt="chat">
                     </span>
                             </a>
-                            <div class="dropdown">
+                            <div class="dropdown dropdown_menu">
                                 <img src="/img/header/you.svg" width="23" height="23" alt="you">
                                 <b class="color-purple you_number ml-1">0.000</b>
-                                <img src="/img/userpic.png" width="60" class="ml-3" alt="userpic">
-                                <img src="/img/incognito_user.png" width="50" alt="avatar" class="ml-3" style="display: none">
+
+                                <div class="rating-progress">
+                                    <svg width="56" height="56" class="rating-progress_svg fourth">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="25" stroke-width="6" stroke="url(#FirstGradient)"
+                                                fill="none" stroke-linecap="round"></circle>
+                                    </svg>
+                                    <a href="#">
+                                        <img src="/img/userpic.png" width="50" class="rating-img" alt="user pic">
+                                        <img src="/img/incognito_user.png" width="50" class="rating-img"
+                                             alt="incognito user" style="display: none">
+                                    </a>
+                                </div>
+
                                 <button class="btn dropdown-toggle dropdown-toggle_arrow" type="button"
                                         id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false">
@@ -177,90 +192,386 @@
                                         <span>4</span>
                                     </button>
                                     <div class="dropdown-menu dropdown-menu_like" aria-labelledby="dropdownMenuLike">
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg fourth">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
 
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
 
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
-                                        <a class="dropdown-item dropdown-item_like" href="#">
-                                            <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                            <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                        </a>
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg first">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg fifth">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic" style="display: none">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg second">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg third">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg fourth">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg first">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg fifth">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic" style="display: none">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg second">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg third">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg fourth">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg first">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg fifth">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic" style="display: none">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg second">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
+
+                                        <div class="rating-progress-user_like">
+                                            <a class="dropdown-item dropdown-item_like" href="#">
+                                                <svg width="33" height="33" class="rating-progress_svg third">
+                                                    <linearGradient id="FirstGradient">
+                                                        <stop offset="0%" stop-color="#429321"></stop>
+                                                        <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                    </linearGradient>
+                                                    <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                            stroke="url(#FirstGradient)" fill="none"
+                                                            stroke-linecap="round"></circle>
+                                                </svg>
+
+                                                <img src="/img/userpic.png" width="35" class="rating-img"
+                                                     alt="user pic">
+                                                <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                     alt="incognito user" style="display: none">
+                                            </a>
+                                        </div>
 
                                         <div class="like-show_block">
-                                            <a class="dropdown-item dropdown-item_like" href="#">
-                                                <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                                <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                            </a>
-                                            <a class="dropdown-item dropdown-item_like" href="#">
-                                                <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                                <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                            </a>
-                                            <a class="dropdown-item dropdown-item_like" href="#">
-                                                <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                                <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                            </a>
-                                            <a class="dropdown-item dropdown-item_like" href="#">
-                                                <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                                <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                            </a>
-                                            <a class="dropdown-item dropdown-item_like" href="#">
-                                                <img src="/img/userpic.png" class="my-2" width="35" alt="userpic">
-                                                <img src="/img/incognito_user.png" class="my-2" width="35" alt="incognito_user" style="display: none">
-                                            </a>
+                                            <div class="rating-progress-user_like">
+                                                <a class="dropdown-item dropdown-item_like" href="#">
+                                                    <svg width="33" height="33" class="rating-progress_svg fourth">
+                                                        <linearGradient id="FirstGradient">
+                                                            <stop offset="0%" stop-color="#429321"></stop>
+                                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                        </linearGradient>
+                                                        <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                                stroke="url(#FirstGradient)" fill="none"
+                                                                stroke-linecap="round"></circle>
+                                                    </svg>
+
+                                                    <img src="/img/userpic.png" width="35" class="rating-img"
+                                                         alt="user pic">
+                                                    <img src="/img/incognito_user.png" width="" class="rating-img"
+                                                         alt="incognito user" style="display: none">
+                                                </a>
+                                            </div>
+
+                                            <div class="rating-progress-user_like">
+                                                <a class="dropdown-item dropdown-item_like" href="#">
+                                                    <svg width="33" height="33" class="rating-progress_svg first">
+                                                        <linearGradient id="FirstGradient">
+                                                            <stop offset="0%" stop-color="#429321"></stop>
+                                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                        </linearGradient>
+                                                        <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                                stroke="url(#FirstGradient)" fill="none"
+                                                                stroke-linecap="round"></circle>
+                                                    </svg>
+
+                                                    <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                         alt="user pic">
+                                                    <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                         alt="incognito user" style="display: none">
+                                                </a>
+                                            </div>
+
+                                            <div class="rating-progress-user_like">
+                                                <a class="dropdown-item dropdown-item_like" href="#">
+                                                    <svg width="33" height="33" class="rating-progress_svg fifth">
+                                                        <linearGradient id="FirstGradient">
+                                                            <stop offset="0%" stop-color="#429321"></stop>
+                                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                        </linearGradient>
+                                                        <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                                stroke="url(#FirstGradient)" fill="none"
+                                                                stroke-linecap="round"></circle>
+                                                    </svg>
+
+                                                    <img src="/img/userpic.png" width="35" class="rating-img"
+                                                         alt="user pic" style="display: none">
+                                                    <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                         alt="incognito user">
+                                                </a>
+                                            </div>
+
+                                            <div class="rating-progress-user_like">
+                                                <a class="dropdown-item dropdown-item_like" href="#">
+                                                    <svg width="33" height="33" class="rating-progress_svg second">
+                                                        <linearGradient id="FirstGradient">
+                                                            <stop offset="0%" stop-color="#429321"></stop>
+                                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                        </linearGradient>
+                                                        <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                                stroke="url(#FirstGradient)" fill="none"
+                                                                stroke-linecap="round"></circle>
+                                                    </svg>
+
+                                                    <img src="/img/temp/images.jpeg" width="35" class="rating-img"
+                                                         alt="user pic">
+                                                    <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                         alt="incognito user" style="display: none">
+                                                </a>
+                                            </div>
+
+                                            <div class="rating-progress-user_like">
+                                                <a class="dropdown-item dropdown-item_like" href="#">
+                                                    <svg width="33" height="33" class="rating-progress_svg third">
+                                                        <linearGradient id="FirstGradient">
+                                                            <stop offset="0%" stop-color="#429321"></stop>
+                                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                        </linearGradient>
+                                                        <circle cx="50%" cy="50%" r="15" stroke-width="3"
+                                                                stroke="url(#FirstGradient)" fill="none"
+                                                                stroke-linecap="round"></circle>
+                                                    </svg>
+
+                                                    <img src="/img/userpic.png" width="35" class="rating-img"
+                                                         alt="user pic">
+                                                    <img src="/img/incognito_user.png" width="35" class="rating-img"
+                                                         alt="incognito user" style="display: none">
+                                                </a>
+                                            </div>
                                         </div>
 
                                         <button class="dropdown-item_like-show show_all">Show all</button>
@@ -328,10 +639,28 @@
                         <div class="photo-user_comment mb-1">
                             <a href="/photos/2953253/" class="d-inline-block"></a>
                             <a href="/photos/2953253/"></a>
-                            <a href="/gallery/103402/">
-                                <img src="/img/userpic.png" width="60" alt="avatar" class="ava">
-                                <img src="/img/incognito_user.png" width="60" alt="avatar" class="ava" style="display: none">
-                            </a>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg fourth">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <!--<a href="/gallery/103402/">
+                                <img src="/img/userpic.png" width="44" alt="avatar" >
+                                <img src="/img/incognito_user.png" width="44" alt="avatar"
+                                     style="display: none">
+                            </a>-->
                             <div class="user-info_comment ">
                                 <h3 class="mb-1">
                                     <a href="/photos/2953253/">Username Username</a>
@@ -386,46 +715,532 @@
                             <p class="mb-0">Visitors</p>
                         </div>
                         <div class="visitors-img">
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
-                            <a href="#">
-                                <img src="/img/userpic.png" width="44" class="mr-2 mb-2" alt="userpic">
-                                <img src="/img/incognito_user.png" width="44" class="mr-2 mb-2" alt="incognito user" style="display: none">
-                            </a>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg second">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg fourth">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg first">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg second">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg fourth">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg fifth">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg second">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
+                            <div class="rating-progress-user_comment">
+                                <a href="#">
+                                    <svg width="39" height="39" class="rating-progress_svg third">
+                                        <linearGradient id="FirstGradient">
+                                            <stop offset="0%" stop-color="#429321"></stop>
+                                            <stop offset="100%" stop-color="#b4ec51"></stop>
+                                        </linearGradient>
+                                        <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                stroke="url(#FirstGradient)" fill="none"
+                                                stroke-linecap="round"></circle>
+                                    </svg>
+
+                                    <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                    <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                         alt="incognito user" style="display: none">
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                 </div>
 
                 <div class="col-lg-6 col-md-7 col-11">
-                    <div class="comment">
+                    <!--<div class="comment">
                     <textarea class="comment-textarea" rows="2" cols="45" name="text"
                               placeholder="Add a comment…"></textarea>
                         <div>
                             <button type="button" class="btn btn-success btn-comment">Send</button>
                             <button type="button" class="btn btn-secondary btn-comment">Cancel</button>
+                        </div>
+                    </div>-->
+
+                    <div class="comments-section">
+                        <div class="form-send">
+                            <textarea name="" id="" class="text-area-comment">
+                            </textarea>
+                            <button class="form-send_btn green mr-10">Send</button>
+                            <button class="form-send_btn">Cancel</button>
+                        </div>
+                        <div class="comments-wrap ps ps--active-y">
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg fourth">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg second">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg fourth">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg fifth">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg fourth">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg fourth">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg first">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <div class="avatar-wrap mr-10">
+                                    <div class="rating-progress-user_comment">
+                                        <a href="#">
+                                            <svg width="39" height="39" class="rating-progress_svg fourth">
+                                                <linearGradient id="FirstGradient">
+                                                    <stop offset="0%" stop-color="#429321"></stop>
+                                                    <stop offset="100%" stop-color="#b4ec51"></stop>
+                                                </linearGradient>
+                                                <circle cx="50%" cy="50%" r="17" stroke-width="3"
+                                                        stroke="url(#FirstGradient)" fill="none"
+                                                        stroke-linecap="round"></circle>
+                                            </svg>
+
+                                            <img src="/img/userpic.png" width="44" class="rating-img" alt="user pic">
+                                            <img src="/img/incognito_user.png" width="44" class="rating-img"
+                                                 alt="incognito user" style="display: none">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comment-right-side">
+                                    <div class="comment-info">
+                                        <div class="left-side">
+                                            <h3 class="user-name">Username Username</h3>
+                                            <p class="user-nick">@username</p>
+                                        </div>
+                                        <div class="right-side">
+                                            <span class="comment-time">
+                                                3 hours ago
+                                            </span>
+                                            <div class="comment-menu_btn dot-btn">
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                                <div class="dot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+
+                                    </p>
+                                    <div class="comment-actions">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ps__rail-x" style="left: 0px; bottom: -20px;">
+                                <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                            </div>
+                            <div class="ps__rail-y" style="top: 20px; height: 540px; right: 0px;">
+                                <div class="ps__thumb-y" tabindex="0" style="top: 10px; height: 65px;"></div>
+                            </div>
                         </div>
                     </div>
 
@@ -644,7 +1459,7 @@
         crossorigin="anonymous"></script>
 
 
-<!--<script src="js/libs/custom-scroll.js"></script>-->
+<script src="js/libs/custom-scroll.js"></script>
 <script src="js/script.js"></script>
 
 

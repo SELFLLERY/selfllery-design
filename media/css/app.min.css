@@ -336,8 +336,8 @@ textarea {
   .comment .avatar-wrap {
     width: 44px;
     height: 44px;
-    background-color: #d8d8d8;
-    border-radius: 50%; }
+    /*background-color: #d8d8d8;
+    border-radius: 50%;*/ }
     .comment .avatar-wrap img {
       border-radius: 50%; }
   .comment-right-side {
@@ -519,6 +519,12 @@ textarea {
   font-size: 14px;
   text-decoration: underline;
   color: #ffffff; }
+
+.header-fixid {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top: 0; }
 
 .btn-success {
   width: 172px;
@@ -715,7 +721,7 @@ textarea {
   letter-spacing: -0.4px;
   color: #9b9b9b; }
 
-.rating-progress {
+.rating-progress, .rating-progress-user, .rating-progress-user_like, .rating-progress-user_comment {
   position: relative;
   background: none;
   width: 60px;
@@ -726,16 +732,23 @@ textarea {
   display: -ms-inline-flexbox;
   display: inline-flex; }
   .rating-progress-user {
-    position: relative;
     background: #d8d8d8;
     width: 41px;
     height: 41px;
     border: 2px solid #d8d8d8;
-    border-radius: 50%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
     top: 13px; }
+    .rating-progress-user_like {
+      background: #d8d8d8;
+      width: 37px;
+      height: 37px;
+      border: 2px solid #d8d8d8;
+      top: 14px;
+      margin-left: 12px; }
+    .rating-progress-user_comment {
+      background: #d8d8d8;
+      width: 42px;
+      height: 42px;
+      border: 2px solid #d8d8d8; }
   .rating-progress_svg {
     position: absolute;
     fill: transparent;
