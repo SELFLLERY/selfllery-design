@@ -36,6 +36,8 @@
     height: 44px;
     background-color: #d8d8d8;
     border-radius: 50%; }
+    .comment .avatar-wrap img {
+      border-radius: 50%; }
   .comment-right-side {
     width: calc(100% - 54px); }
   .comment .comment-info {

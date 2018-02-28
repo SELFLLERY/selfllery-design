@@ -77,7 +77,7 @@
   display: inline-block;
   width: 37px;
   height: 37px;
-  border-radius: 100px;
+  border-radius: 50%;
   /*border: 2px solid transparent;*/ }
 
 .photo-user {
