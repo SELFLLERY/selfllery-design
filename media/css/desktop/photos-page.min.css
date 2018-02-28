@@ -279,16 +279,23 @@
   /*overflow: hidden;*/
   z-index: 2; }
 
-.img-show .closed {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 99;
-  cursor: pointer; }
-
 .img-show img {
   position: absolute;
-  top: 0;
+  top: 15%;
   left: 0;
   width: 100%;
   height: auto; }
+
+.img-show .closed {
+  position: absolute;
+  top: 17%;
+  right: 15px;
+  z-index: 3;
+  cursor: pointer; }
+
+.img-show .closed-img {
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  width: 50px;
+  height: 50px; }

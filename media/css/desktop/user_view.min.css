@@ -125,6 +125,7 @@
 
 .modal-show .overlay {
   position: fixed;
+  display: none;
   width: 100vw;
   height: 100vh;
   background-color: rgba(74, 74, 74, 0.65);
@@ -135,6 +136,7 @@
   z-index: 10; }
 
 .modal-show .modal-block {
+  display: none;
   max-width: 414px;
   width: 100%;
   height: 225px;
