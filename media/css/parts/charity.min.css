@@ -8,6 +8,17 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex; }
+  .rating-progress-user {
+    position: relative;
+    background: #d8d8d8;
+    width: 41px;
+    height: 41px;
+    border: 2px solid #d8d8d8;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    top: 13px; }
   .rating-progress_svg {
     position: absolute;
     fill: transparent;
