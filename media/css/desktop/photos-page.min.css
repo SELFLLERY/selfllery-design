@@ -166,6 +166,8 @@
     width: 100%; }
   .photos-page .visitors-title {
     text-decoration: underline; }
+  .photos-page .visitors-img img {
+    border-radius: 50%; }
   .photos-page .comment-textarea {
     max-width: 474px;
     width: 100%;
