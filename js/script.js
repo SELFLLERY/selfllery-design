@@ -43,7 +43,7 @@ $(document).ready(function () {
             $(".img-show img").attr("src", $src);
         });
 
-        $(".closed, .overlay").click(function () {
+        $(".closed, .popup-overlay").click(function () {
             $(".popup-show").hide();
         });
 
