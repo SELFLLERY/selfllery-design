@@ -159,13 +159,17 @@
   width: 17px; }
 
 /*section-info*/
+.section-info a {
+  color: #4a4a4a; }
+
 .section-info .number {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 200;
-  line-height: 1; }
+  line-height: 1;
+  display: block; }
 
 .section-info .text {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600; }
 
 .section-info .line {
