@@ -1,4 +1,16 @@
 /*footer*/
+#top-up {
+  display: none;
+  position:fixed;
+  bottom: 5%;
+  right: 5%;
+  opacity: 0.7;
+  &:hover {
+    box-shadow: 0 0 13px 0 rgb(209, 69, 254);
+    border-radius: 50%;
+  }
+}
+
 .footer-bg {
   background-color: #f1f1f1;
   margin-top: 25px;

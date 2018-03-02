@@ -586,7 +586,7 @@ textarea {
   line-height: normal;
   letter-spacing: -0.6px;
   /*text-align: left;*/
-  margin-left: 19px; }
+  margin-left: 19px !important; }
 
 .plus {
   font-size: 33px;
@@ -718,6 +718,17 @@ textarea {
   line-height: 47px; }
 
 /*footer*/
+#top-up {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  opacity: 0.7; }
+  #top-up:hover {
+    -webkit-box-shadow: 0 0 13px 0 #d145fe;
+            box-shadow: 0 0 13px 0 #d145fe;
+    border-radius: 50%; }
+
 .footer-bg {
   background-color: #f1f1f1;
   margin-top: 25px; }

@@ -1,4 +1,15 @@
 /*footer*/
+#top-up {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  opacity: 0.7; }
+  #top-up:hover {
+    -webkit-box-shadow: 0 0 13px 0 #d145fe;
+            box-shadow: 0 0 13px 0 #d145fe;
+    border-radius: 50%; }
+
 .footer-bg {
   background-color: #f1f1f1;
   margin-top: 25px; }

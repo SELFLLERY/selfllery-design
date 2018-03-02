@@ -48,7 +48,7 @@
   line-height: normal;
   letter-spacing: -0.6px;
   /*text-align: left;*/
-  margin-left: 19px;
+  margin-left: 19px !important;
 }
 
 .plus {
@@ -134,6 +134,10 @@
   font-weight: 600;
   letter-spacing: -0.6px;
   vertical-align: middle;
+}
+
+.dropdown-img {
+  border-radius: 50%;
 }
 
 .dropdown.show .btn.dropdown-toggle_arrow{

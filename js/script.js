@@ -82,6 +82,28 @@ $(document).ready(function () {
 
     });
 
-
     /*scrollTop header /end/*/
+
+    /*scroll button up /start/*/
+
+    $(function() {
+
+        $(window).scroll(function() {
+            if($(this).scrollTop() !== 0) {
+                $('#top-up').fadeIn('slow');
+            } else {
+                $('#top-up').stop(true, false).fadeOut('fast');
+            }
+        });
+
+        $('#top-up').click(function() {
+            $('body,html').stop().animate({scrollTop:0},200);
+        });
+
+    });
+
+    /*scroll button up /end/*/
+
+
 });
+
