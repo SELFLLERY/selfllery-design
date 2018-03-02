@@ -13,7 +13,8 @@
 .quest-gradient {
   position: absolute;
   bottom: 0;
-  width: 312px;
+  max-width: 312px;
+  width: 100%;
   height: 60px;
   opacity: 0.7;
   background-color: #cf3bfe; }
@@ -21,7 +22,8 @@
 .link {
   position: absolute;
   bottom: 0;
-  width: 312px;
+  max-width: 312px;
+  width: 100%;
   padding: 15px; }
 
 .link .link-text {
@@ -33,26 +35,54 @@
   color: #ffffff; }
 
 /*line*/
-hr {
+.line-block {
+  text-align: center;
+  margin-top: 15px;
+  height: 8px; }
+  .line-block-img {
+    display: block;
+    border-top: 1px solid #9b9b9b;
+    width: 100%; }
+  .line-block-link {
+    position: relative;
+    bottom: 18px;
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    padding: 5px 22px;
+    background: #fff;
+    font-weight: 300;
+    color: #4a4a4a;
+    z-index: 10; }
+    .line-block-link:hover {
+      color: #000; }
+
+/*
+hr{
   height: 1px;
   background-color: #ccc;
   border: none;
-  text-align: center; }
-
+  text-align: center;
+}
 .hr-top:before, .hr-bottom:before, .hr-choice:before {
   content: "TOP PHOTOS";
   position: relative;
   top: -10px;
   background-color: white;
   padding: 2px 5px;
-  color: #000; }
-
+  color: #000;
+}
 .hr-bottom:before {
-  content: "NEWS"; }
-
+  content: "NEWS";
+}
 .hr-choice:before {
-  content: 'EDITOR’S CHOICE'; }
-
+  content: 'EDITOR’S CHOICE';
+}
+*/
 /*section-choice*/
 .photo-choice {
   width: 150px;

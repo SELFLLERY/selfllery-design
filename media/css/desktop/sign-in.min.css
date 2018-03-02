@@ -1,0 +1,84 @@
+.sign-in-page_wrap {
+  width: 518px;
+  height: 359px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2); }
+
+.sign-in-page form {
+  padding-top: 14px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  width: 340px;
+  text-align: center; }
+
+.sign-in-page_title {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: -1.1px;
+  color: #4a4a4a; }
+
+.sign-in-page .input {
+  margin-top: 6px;
+  height: 40px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  width: 100%;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #000; }
+  .sign-in-page .input.first {
+    margin-top: 22px; }
+  .sign-in-page .input::-webkit-input-placeholder {
+    color: #d8d8d8;
+    opacity: 1; }
+  .sign-in-page .input:-ms-input-placeholder {
+    color: #d8d8d8;
+    opacity: 1; }
+  .sign-in-page .input::placeholder {
+    color: #d8d8d8;
+    opacity: 1; }
+  .sign-in-page .input.error {
+    border-color: #d0021b; }
+
+.sign-in-page_cant-link {
+  font-size: 16px;
+  letter-spacing: -0.6px;
+  color: #a8a8a8; }
+
+.sign-in-page_submit {
+  margin-top: 22px;
+  width: 100%;
+  font-weight: 600;
+  letter-spacing: -0.6px; }
+
+.sign-in-page_or {
+  margin-top: 8px;
+  font-size: 14px;
+  letter-spacing: -0.6px;
+  color: #a8a8a8;
+  text-decoration: underline; }
+
+.sign-in-page .sign-in_socials {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .sign-in-page .sign-in_socials button {
+    width: 165px;
+    height: 36px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: -0.6px; }
+    .sign-in-page .sign-in_socials button.facebook {
+      background-color: #4a6be2; }
+    .sign-in-page .sign-in_socials button.google {
+      background-color: #d0021b; }
