@@ -136,6 +136,10 @@
   vertical-align: middle;
 }
 
+.dropdown-img {
+  border-radius: 50%;
+}
+
 .dropdown.show .btn.dropdown-toggle_arrow{
   transform: rotate(180deg);
 }
