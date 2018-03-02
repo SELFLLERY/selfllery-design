@@ -96,7 +96,8 @@ $(document).ready(function () {
             }
         });
 
-        $('#top-up').click(function() {
+        $('#top-up').click(function(e) {
+        	e.preventDefault();
             $('body,html').stop().animate({scrollTop:0},200);
         });
 
