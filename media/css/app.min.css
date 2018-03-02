@@ -671,6 +671,9 @@ textarea {
   letter-spacing: -0.6px;
   vertical-align: middle; }
 
+.dropdown-img {
+  border-radius: 50%; }
+
 .dropdown.show .btn.dropdown-toggle_arrow {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg); }
@@ -723,7 +726,9 @@ textarea {
   position: fixed;
   bottom: 5%;
   right: 5%;
-  opacity: 0.7; }
+  opacity: 0.7;
+  cursor: pointer;
+  z-index: 100; }
   #top-up:hover {
     -webkit-box-shadow: 0 0 13px 0 #d145fe;
             box-shadow: 0 0 13px 0 #d145fe;
