@@ -13,3 +13,36 @@
     background: #ccc;
     width: 69px;
     height: 69px; }
+
+/*media*/
+@media (max-width: 960px) {
+  .mini-photo:nth-child(11),
+  .mini-photo:nth-child(12) {
+    display: none; } }
+
+@media (max-width: 798px) {
+  .mini-photo:nth-child(9),
+  .mini-photo:nth-child(10),
+  .mini-photo:nth-child(11),
+  .mini-photo:nth-child(12) {
+    display: none; } }
+
+@media (max-width: 620px) {
+  .mini-photo:nth-child(7),
+  .mini-photo:nth-child(8),
+  .mini-photo:nth-child(9),
+  .mini-photo:nth-child(10),
+  .mini-photo:nth-child(11),
+  .mini-photo:nth-child(12) {
+    display: none; } }
+
+@media (max-width: 490px) {
+  .mini-photo:nth-child(5),
+  .mini-photo:nth-child(6),
+  .mini-photo:nth-child(7),
+  .mini-photo:nth-child(8),
+  .mini-photo:nth-child(9),
+  .mini-photo:nth-child(10),
+  .mini-photo:nth-child(11),
+  .mini-photo:nth-child(12) {
+    display: none; } }
