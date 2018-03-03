@@ -318,8 +318,11 @@
     width: 200px;
     height: 200px;
     cursor: pointer*/
-  max-width: 746px;
-  max-height: 421px;
+  //max-width: 746px;
+  max-width: 90%;
+  //max-height: 421px;
+
+  max-height: calc(100vh - 240px);
   //width: 95%;
   height: auto;
 }
