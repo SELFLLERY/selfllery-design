@@ -13,7 +13,7 @@
     border: none;
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
     color: #d8d8d8;
     &.green {
       color: #befa82;
@@ -28,7 +28,7 @@
   flex-wrap: wrap;
   width: 100%;
   margin-top: 10px;
-  &:nth-child(1){
+  &:nth-child(1) {
     margin-top: 0;
   }
   .avatar-wrap {
@@ -55,11 +55,13 @@
     .user-name {
       font-size: 12px;
       color: #4a4a4a;
+      font-weight: 600;
     }
     .user-nick {
+      margin-top: 3px;
       font-size: 12px;
       font-weight: 600;
-      letter-spacing: -0.5px;
+      letter-spacing: 0.5px;
       color: #4a4a4a;
     }
     .comment-time {
@@ -76,10 +78,68 @@
     }
   }
   .comment-text {
+    margin-top: 14px;
     font-size: 14px;
     color: #4a4a4a;
+    border-bottom: 1px solid #d8d8d8;
   }
   .comment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left-side {
+      min-width: 50%;
+    }
+  }
+  &_reply, &_translate {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a4a4a;
+    cursor: pointer;
+    &:hover {
+      color: #cf3bfe;
+    }
+  }
+  &_translate {
+    margin-left: 24px !important;
+  }
+  &_likes {
+    cursor: pointer;
+    &:hover{
+      .comment_like-ico {
+        g{
+          fill: #cf3bfe !important;
+          stroke: #cf3bfe !important;
+        }
+      }
+      .comment_count-likes{
+        color: #cf3bfe;
+      }
+    }
+  }
+  &_like-ico {
+    width: 19px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    g{
+      fill: #4A4A4A;
+      stroke: #4A4A4A;
+    }
+  }
+  &_count-likes {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a4a4a;
+  }
+}
 
+@media (max-width: 767px) {
+  .form-send .text-area-comment {
+    max-width: 100%;
   }
 }

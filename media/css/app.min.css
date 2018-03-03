@@ -314,7 +314,7 @@ textarea {
   border: none;
   font-size: 13px;
   font-weight: 600;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
   color: #d8d8d8; }
   .form-send .form-send_btn.green {
     color: #befa82;
@@ -352,11 +352,13 @@ textarea {
     width: 100%; }
     .comment .comment-info .user-name {
       font-size: 12px;
-      color: #4a4a4a; }
+      color: #4a4a4a;
+      font-weight: 600; }
     .comment .comment-info .user-nick {
+      margin-top: 3px;
       font-size: 12px;
       font-weight: 600;
-      letter-spacing: -0.5px;
+      letter-spacing: 0.5px;
       color: #4a4a4a; }
     .comment .comment-info .comment-time {
       margin-right: 10px;
@@ -371,8 +373,58 @@ textarea {
       display: inline-flex;
       vertical-align: middle; }
   .comment .comment-text {
+    margin-top: 14px;
     font-size: 14px;
+    color: #4a4a4a;
+    border-bottom: 1px solid #d8d8d8; }
+  .comment .comment-actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .comment .comment-actions .left-side {
+      min-width: 50%; }
+  .comment_reply, .comment_translate {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a4a4a;
+    cursor: pointer; }
+    .comment_reply:hover, .comment_translate:hover {
+      color: #cf3bfe; }
+  .comment_translate {
+    margin-left: 24px !important; }
+  .comment_likes {
+    cursor: pointer; }
+    .comment_likes:hover .comment_like-ico g {
+      fill: #cf3bfe !important;
+      stroke: #cf3bfe !important; }
+    .comment_likes:hover .comment_count-likes {
+      color: #cf3bfe; }
+  .comment_like-ico {
+    width: 19px;
+    height: 17px;
+    display: inline-block;
+    vertical-align: middle; }
+    .comment_like-ico g {
+      fill: #4A4A4A;
+      stroke: #4A4A4A; }
+  .comment_count-likes {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 600;
     color: #4a4a4a; }
+
+@media (max-width: 767px) {
+  .form-send .text-area-comment {
+    max-width: 100%; } }
 
 /*photo-block*/
 .photo-block {
