@@ -161,13 +161,13 @@
     <div class="main">
 
 
-        <div class="section-gallery-top container"
-             style="background: url('/img/other/bg-user.png') no-repeat bottom center">
+        <div class="section-gallery-top"
+             style="">
             <div>
                 <div class="section-gallery-top_wrap">
                     <div class="container">
                         <div class="row justify-content-start">
-                            <div class="col-md-2">
+                            <div class="avatar-user_wrap">
                                 <div class="rating-progress-user_big">
                                     <svg width="140" height="140" class="rating-progress_svg fourth">
                                         <linearGradient id="FirstGradient">
@@ -188,7 +188,7 @@
                                     <img src="/img/incognito_user.png" class="gallery-ava_big" alt="incognito user" style="display: none">
         -->
                             </div>
-                            <div class="col-md-4">
+                            <div class="user-info_wrap">
                                 <h2 class="gallery_user-name">Username Username</h2>
                                 <p class="gallery_user-nick">@username</p>
                                 <p class="gallery_user_location">
@@ -204,7 +204,7 @@
         </div>
 
         <div class="section-gallery-info container">
-            <div class="row user-info-row">
+            <div class="row user-info-row desktop">
                 <div class="info-wrap">
                     <div class="left-side">
                         <img src="/img/photo_like_view/like_black.png" width="25" alt="" class="gallery-info_ico"/>
@@ -216,7 +216,7 @@
                 </div>
                 <div class="info-wrap">
                     <div class="left-side">
-                        <img src="/img/photo_like_view/views_photo.png" width="33" alt="" class="gallery-info_ico"/>
+                        <img src="/img/photo_like_view/views_photo.png" width="33" alt="" class="gallery-info_ico eay"/>
                     </div>
                     <div class="right-side">
                         <p class="gallery-info_numbers">300</p>
@@ -225,7 +225,8 @@
                 </div>
                 <div class="info-wrap">
                     <div class="left-side">
-                        <img src="/img/photo_like_view/photos.png" width="23" alt="" class="gallery-info_ico"/>
+                        <img src="/img/photo_like_view/photos.png" width="23" alt=""
+                             class="photo-ico gallery-info_ico"/>
                     </div>
                     <div class="right-side">
                         <p class="gallery-info_numbers">200</p>
@@ -283,6 +284,118 @@
                     </div>
                 </div>
 
+            </div>
+            <div class="user-info-row mobile">
+                <div class="wrap">
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/like_black.png" width="25" alt="" class="gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">50</p>
+                            <p class="gallery-info_description">rating</p>
+                        </div>
+                    </div>
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/views_photo.png" width="33" alt=""
+                                 class="gallery-info_ico eay"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">300</p>
+                            <p class="gallery-info_description">views</p>
+                        </div>
+                    </div>
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/photos.png" width="23" alt=""
+                                 class="photo-ico gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">200</p>
+                            <p class="gallery-info_description">photos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap second">
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/following_in.png" width="27" alt=""
+                                 class="gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">100</p>
+                            <p class="gallery-info_description">followers</p>
+                        </div>
+                    </div>
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/following_out.png" width="27" alt=""
+                                 class="gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">100</p>
+                            <p class="gallery-info_description">following</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-info-row small-mobile">
+                <div class="wrap">
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/like_black.png" width="25" alt="" class="gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">50</p>
+                            <p class="gallery-info_description">rating</p>
+                        </div>
+                    </div>
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/views_photo.png" width="33" alt=""
+                                 class="gallery-info_ico eay"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">300</p>
+                            <p class="gallery-info_description">views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/photos.png" width="23" alt=""
+                                 class="photo-ico gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">200</p>
+                            <p class="gallery-info_description">photos</p>
+                        </div>
+                    </div>
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/following_in.png" width="27" alt=""
+                                 class="gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">100</p>
+                            <p class="gallery-info_description">followers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap second">
+                    <div class="info-wrap">
+                        <div class="left-side">
+                            <img src="/img/photo_like_view/following_out.png" width="27" alt=""
+                                 class="gallery-info_ico"/>
+                        </div>
+                        <div class="right-side">
+                            <p class="gallery-info_numbers">100</p>
+                            <p class="gallery-info_description">following</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -849,106 +962,6 @@
                     <a href="#">
                         <img src="/img/google_play.png" alt="google play">
                     </a>
-                </div>
-                <div class="flag my-3">
-                    <div id="lang_achor" class="lang_achor">
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag en"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_english.png" width="24" alt="flag"> English
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag ru"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_russia.png" alt="flag"> Русский
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag he"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_israel.png" alt="flag"> עברית
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag ja"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_japan.png" alt="flag"> 日本人
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag zh"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_china.png" alt="flag"> 中國
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag fr"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_france.png" alt="flag"> Français
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag de"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_germany.png" alt="flag"> Deutsch
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag it"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_italy.png" alt="flag"> Italiano
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag es"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_spain.png" alt="flag"> Español
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag cs"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_czech.png" alt="flag"> Čeština
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag pl"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_poland.png" alt="flag"> Polski
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag pt"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_portugal.png" alt="flag"> Português
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag uk"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_ukraine.png" alt="flag"> Українська
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag hi"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_india.png" alt="flag"> भारतीय
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag ar"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_united_arab_emirates.png" alt="flag"> العربية
-                            </a>
-                        </div>
-                        <div class="m-2 flag-block">
-                            <!-- <span class="lang-flag ko"></span> -->
-                            <a class="lang-link" href="#">
-                                <img src="/img/flags/flags_korea.png" alt="flag"> 한국의
-                            </a>
-                        </div>
-                    </div>
                 </div>
                 <div class="text-center">
                     <p class="foot-copy">© SELFLLERY 2018</p>
