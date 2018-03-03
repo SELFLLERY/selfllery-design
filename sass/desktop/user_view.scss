@@ -70,7 +70,8 @@
   .gallery-info_description {
     font-size: 13px;
     font-weight: 600;
-    letter-spacing: -0.5px;
+    //letter-spacing: -0.5px;
+    letter-spacing: normal;
     text-align: left;
     color: #9b9b9b;
   }
@@ -246,5 +247,11 @@
         margin-right: 11px;
       }
     }
+  }
+}
+
+@media (max-width: 970px) {
+  .gallery_send-message {
+    margin: 20px auto 0;
   }
 }
