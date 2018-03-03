@@ -541,7 +541,7 @@ textarea {
     display: none; } }
 
 /*header*/
-header {
+.header {
   /*width: 1024px;*/
   /*height: 80px;*/
   background-color: #ffffff;
