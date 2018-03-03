@@ -1,84 +1,113 @@
-.sign-in-page_wrap {
-  width: 518px;
-  height: 359px;
-  border-radius: 7px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2); }
+.sign-in_page {
+  position: relative;
+  padding-bottom: 280px;
+  min-height: 100%; }
+  .sign-in_page .footer-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; }
 
-.sign-in-page form {
-  padding-top: 14px;
-  padding-bottom: 40px;
-  margin: 0 auto;
-  width: 340px;
-  text-align: center; }
-
-.sign-in-page_title {
-  font-size: 28px;
-  font-weight: 300;
-  letter-spacing: -1.1px;
-  color: #4a4a4a; }
-
-.sign-in-page .input {
-  margin-top: 6px;
-  height: 40px;
-  border: 1px solid #d8d8d8;
-  border-radius: 4px;
+.sign-in {
+  background: url("/img/sign-in/bg.png") no-repeat center bottom;
+  background-size: contain;
   width: 100%;
-  letter-spacing: -0.6px;
-  text-align: left;
-  color: #000; }
-  .sign-in-page .input.first {
-    margin-top: 22px; }
-  .sign-in-page .input::-webkit-input-placeholder {
-    color: #d8d8d8;
-    opacity: 1; }
-  .sign-in-page .input:-ms-input-placeholder {
-    color: #d8d8d8;
-    opacity: 1; }
-  .sign-in-page .input::placeholder {
-    color: #d8d8d8;
-    opacity: 1; }
-  .sign-in-page .input.error {
-    border-color: #d0021b; }
-
-.sign-in-page_cant-link {
-  font-size: 16px;
-  letter-spacing: -0.6px;
-  color: #a8a8a8; }
-
-.sign-in-page_submit {
-  margin-top: 22px;
-  width: 100%;
-  font-weight: 600;
-  letter-spacing: -0.6px; }
-
-.sign-in-page_or {
-  margin-top: 8px;
-  font-size: 14px;
-  letter-spacing: -0.6px;
-  color: #a8a8a8;
-  text-decoration: underline; }
-
-.sign-in-page .sign-in_socials {
-  margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .sign-in-page .sign-in_socials button {
-    width: 165px;
+  margin-top: 20px;
+  min-height: calc(100vh - 440px); }
+  .sign-in a:hover {
+    color: inherit; }
+  .sign-in_wrap {
+    margin: 0 auto;
+    width: 518px;
+    height: 359px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.7);
+            box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.7); }
+  .sign-in form {
+    padding-top: 14px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 340px;
+    text-align: center; }
+  .sign-in_title {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: -1.1px;
+    color: #4a4a4a; }
+  .sign-in .input {
+    padding: 0 5px;
+    margin-top: 6px;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    width: 100%;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #000; }
+    .sign-in .input.first {
+      margin-top: 22px; }
+    .sign-in .input::-webkit-input-placeholder {
+      color: #d8d8d8;
+      opacity: 1; }
+    .sign-in .input:-ms-input-placeholder {
+      color: #d8d8d8;
+      opacity: 1; }
+    .sign-in .input::placeholder {
+      color: #d8d8d8;
+      opacity: 1; }
+    .sign-in .input.error {
+      border-color: #d0021b; }
+  .sign-in_cant-link {
+    font-size: 16px;
+    letter-spacing: -0.6px;
+    color: #a8a8a8; }
+  .sign-in_submit {
+    margin-top: 22px;
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: -0.6px;
     height: 36px;
     border-radius: 20px;
+    cursor: pointer;
     color: #fff;
-    font-weight: 600;
-    letter-spacing: -0.6px; }
-    .sign-in-page .sign-in_socials button.facebook {
-      background-color: #4a6be2; }
-    .sign-in-page .sign-in_socials button.google {
-      background-color: #d0021b; }
+    border: none;
+    background-color: #cf3bfe; }
+  .sign-in_or {
+    margin-top: 8px;
+    font-size: 14px;
+    letter-spacing: -0.6px;
+    color: #a8a8a8;
+    text-decoration: underline; }
+  .sign-in .sign-in_socials {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .sign-in .sign-in_socials button {
+      cursor: pointer;
+      width: 165px;
+      height: 36px;
+      border-radius: 20px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: -0.6px;
+      border: none; }
+      .sign-in .sign-in_socials button.facebook {
+        background-color: #4a6be2; }
+      .sign-in .sign-in_socials button.google {
+        background-color: #d0021b; }
+
+@media (max-width: 767px) {
+  .sign-in_wrap {
+    width: 320px; }
+  .sign-in form {
+    width: 300px; }
+  .sign-in .sign-in .sign-in_socials button {
+    width: 45%; } }
