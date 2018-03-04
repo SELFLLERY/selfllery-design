@@ -1,42 +1,42 @@
-.sign-in_page {
+.sign-up_page {
   position: relative;
   padding-bottom: 180px;
   min-height: 100%; }
-  .sign-in_page .footer-bg {
+  .sign-up_page .footer-bg {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%; }
 
-.sign-in {
-  background: url("/img/sign-in/bg.png") no-repeat center bottom;
+.sign-up {
+  padding-bottom: 20px;
+  background: url("/img/sign-up/bg.png") no-repeat center bottom;
   background-size: contain;
   width: 100%;
   margin-top: 20px;
-  min-height: calc(100vh - 338px);
-  padding-bottom: 20px; }
-  .sign-in a:hover {
+  min-height: calc(100vh - 440px); }
+  .sign-up a:hover {
     color: inherit; }
-  .sign-in_wrap {
+  .sign-up_wrap {
     margin: 0 auto;
     width: 518px;
-    height: 359px;
+    height: 560px;
     border-radius: 7px;
     background-color: #ffffff;
     -webkit-box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.7);
             box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, 0.7); }
-  .sign-in form {
+  .sign-up form {
     padding-top: 14px;
     padding-bottom: 40px;
     margin: 0 auto;
     width: 340px;
     text-align: center; }
-  .sign-in_title {
+  .sign-up_title {
     font-size: 28px;
     font-weight: 300;
     letter-spacing: -1.1px;
     color: #4a4a4a; }
-  .sign-in .input {
+  .sign-up .input {
     padding: 0 5px;
     margin-top: 6px;
     height: 40px;
@@ -46,24 +46,24 @@
     letter-spacing: -0.6px;
     text-align: left;
     color: #000; }
-    .sign-in .input.first {
+    .sign-up .input.first {
       margin-top: 22px; }
-    .sign-in .input::-webkit-input-placeholder {
+    .sign-up .input::-webkit-input-placeholder {
       color: #d8d8d8;
       opacity: 1; }
-    .sign-in .input:-ms-input-placeholder {
+    .sign-up .input:-ms-input-placeholder {
       color: #d8d8d8;
       opacity: 1; }
-    .sign-in .input::placeholder {
+    .sign-up .input::placeholder {
       color: #d8d8d8;
       opacity: 1; }
-    .sign-in .input.error {
+    .sign-up .input.error {
       border-color: #d0021b; }
-  .sign-in_cant-link {
+  .sign-up_cant-link {
     font-size: 16px;
     letter-spacing: -0.6px;
     color: #a8a8a8; }
-  .sign-in_submit {
+  .sign-up_submit {
     margin-top: 22px;
     width: 100%;
     font-weight: 600;
@@ -74,13 +74,18 @@
     color: #fff;
     border: none;
     background-color: #cf3bfe; }
-  .sign-in_or {
+  .sign-up_or, .sign-up_by {
     margin-top: 8px;
     font-size: 14px;
     letter-spacing: -0.6px;
-    color: #a8a8a8;
-    text-decoration: underline; }
-  .sign-in .sign-in_socials {
+    color: #a8a8a8; }
+    .sign-up_or a, .sign-up_by a {
+      color: inherit;
+      text-decoration: underline; }
+  .sign-up_by {
+    margin-top: 13px;
+    width: 350px; }
+  .sign-up .sign-up_socials {
     margin-top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -91,7 +96,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .sign-in .sign-in_socials button {
+    .sign-up .sign-up_socials button {
       cursor: pointer;
       width: 165px;
       height: 36px;
@@ -100,22 +105,24 @@
       font-weight: 600;
       letter-spacing: -0.6px;
       border: none; }
-      .sign-in .sign-in_socials button.facebook {
+      .sign-up .sign-up_socials button.facebook {
         background-color: #4a6be2; }
-      .sign-in .sign-in_socials button.google {
+      .sign-up .sign-up_socials button.google {
         background-color: #d0021b; }
 
 @media (max-width: 767px) {
-  .sign-in_wrap {
+  .sign-up_wrap {
     width: 320px; }
-  .sign-in form {
+  .sign-up form {
     width: 300px; }
-  .sign-in .sign-in_socials button {
-    width: 45%; } }
+  .sign-up_by {
+    width: 100%; }
+  .sign-up .sign-up_socials button {
+    width: 45%;
+    font-size: 14px; } }
 
 @media (max-width: 500px) {
-  .sign-in_page {
+  .sign-up_page {
     padding-bottom: 230px; }
-  .sign-in {
-    background: none;
-    min-height: calc(100vh - 490px); } }
+  .sign-up {
+    background: none; } }
