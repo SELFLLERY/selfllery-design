@@ -64,7 +64,7 @@
   margin-right: 40px; }
 
 .user-view-page .info-wrap:nth-child(1) {
-  margin-left: 180px; }
+  margin-left: 175px; }
 
 .user-view-page .info-wrap .gallery-info_ico {
   margin-top: 5px;
@@ -285,7 +285,7 @@
     display: none; }
   .user-view-page .user-info-row {
     width: 100%;
-    padding-left: 155px; }
+    padding-left: 160px; }
     .user-view-page .user-info-row .wrap {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -320,7 +320,7 @@
     font-size: 18px; }
   .user-view-page .user-info-row {
     width: 100%;
-    padding-left: 120px; }
+    padding-left: 130px; }
     .user-view-page .user-info-row .wrap {
       display: -webkit-box;
       display: -ms-flexbox;
