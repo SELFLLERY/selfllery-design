@@ -335,7 +335,11 @@ textarea {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  margin-top: 10px; }
+  margin-top: 15px;
+  padding-bottom: 0px; }
+  .comment h2, .comment h3, .comment p, .comment span {
+    margin: 0;
+    padding: 0; }
   .comment:nth-child(1) {
     margin-top: 0; }
   .comment .avatar-wrap {
@@ -378,7 +382,7 @@ textarea {
       display: inline-flex;
       vertical-align: middle; }
   .comment .comment-text {
-    margin-top: 14px;
+    margin-top: 10px;
     font-size: 14px;
     color: #4a4a4a;
     border-bottom: 1px solid #d8d8d8; }
@@ -391,7 +395,8 @@ textarea {
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    padding-bottom: 5px; }
     .comment .comment-actions .left-side {
       min-width: 50%; }
   .comment_reply, .comment_translate {
