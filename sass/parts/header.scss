@@ -6,7 +6,7 @@
   position: fixed;
   z-index: 9999;
   width: 100%;
-  transition: .25s top ease-in-out;
+  transition: .25s top,height ease-in-out;
 }
 
 .header-top {
