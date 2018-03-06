@@ -1,3 +1,30 @@
+.user-buttons .user-btn {
+  width: 47px;
+  height: 47px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 7px;
+  border: none;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+  .user-buttons .user-btn svg {
+    margin-left: -5px;
+    max-width: 100%;
+    max-height: 100%; }
+  .user-buttons .user-btn:nth-last-child(1) {
+    margin-right: 0; }
+  .user-buttons .user-btn.add-friend {
+    background: url("/img/user-view/add-friend.svg");
+    background-size: contain; }
+  .user-buttons .user-btn.send-message {
+    background: url("/img/user-view/send-message.svg");
+    background-size: contain; }
+  .user-buttons .user-btn.social-share {
+    background: url("/img/user-view/share.svg");
+    background-size: contain; }
+
 .user-view-page h2, .user-view-page h3, .user-view-page p, .user-view-page span {
   margin: 0;
   padding: 0; }
@@ -64,7 +91,7 @@
   margin-right: 40px; }
 
 .user-view-page .info-wrap:nth-child(1) {
-  margin-left: 180px; }
+  margin-left: 175px; }
 
 .user-view-page .info-wrap .gallery-info_ico {
   margin-top: 5px;
@@ -110,6 +137,7 @@
       display: none; }
 
 .user-view-page .gallery_share-profile {
+  display: none;
   cursor: pointer;
   background: none;
   width: 162px;
@@ -234,6 +262,10 @@
       margin-right: 11px; }
 
 @media (max-width: 992px) {
+  .user-buttons .user-btn {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px; }
   .user-view-page .gallery_send-message {
     display: none; }
   .user-view-page .user-info-row {
@@ -245,7 +277,7 @@
     display: block;
     margin: 20px auto 0 auto; }
   .user-view-page .info-wrap {
-    margin-right: 20px; }
+    margin-right: 18px; }
     .user-view-page .info-wrap .gallery-info_ico {
       width: 20px; }
       .user-view-page .info-wrap .gallery-info_ico.eay {
@@ -253,9 +285,9 @@
       .user-view-page .info-wrap .gallery-info_ico.photo-ico {
         width: 18px; }
   .user-view-page .gallery-info_numbers {
-    font-size: 18px; }
+    font-size: 19px; }
   .user-view-page .gallery-info_description {
-    font-size: 12px; } }
+    font-size: 11px; } }
 
 @media (max-width: 767px) {
   .user-view-page .gallery-bottom_wrap {
@@ -285,7 +317,7 @@
     display: none; }
   .user-view-page .user-info-row {
     width: 100%;
-    padding-left: 155px; }
+    padding-left: 160px; }
     .user-view-page .user-info-row .wrap {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -320,7 +352,7 @@
     font-size: 18px; }
   .user-view-page .user-info-row {
     width: 100%;
-    padding-left: 120px; }
+    padding-left: 130px; }
     .user-view-page .user-info-row .wrap {
       display: -webkit-box;
       display: -ms-flexbox;

@@ -1,13 +1,29 @@
 /*header*/
 .header {
-  /*width: 1024px;*/
-  /*height: 80px;*/
   background-color: #ffffff;
   -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2); }
+          box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
+  top: 36px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  -webkit-transition: .25s top,height ease-in-out;
+  transition: .25s top,height ease-in-out; }
 
 .header-top {
-  background: #cf3bfe; }
+  background: #cf3bfe;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: .25s top ease-out;
+  transition: .25s top ease-out; }
+
+@media (max-width: 767px) {
+  .header {
+    position: static !important; }
+  .header-top {
+    position: static !important; } }
 
 .header-top a {
   font-size: 14px;

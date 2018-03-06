@@ -1,3 +1,39 @@
+.user-buttons{
+  .user-btn{
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 7px;
+    border: none;
+    transition: all .3s;
+    svg{
+      margin-left: -5px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    &:nth-last-child(1){
+      margin-right: 0;
+    }
+    &.add-friend{
+      background: url("/img/user-view/add-friend.svg");
+      background-size: contain;
+    }
+    &.send-message{
+      background: url("/img/user-view/send-message.svg");
+      background-size: contain;
+    }
+    &.social-share{
+      background: url("/img/user-view/share.svg");
+      background-size: contain;
+    }
+  }
+}
+
+
+
 .user-view-page {
   h2, h3, p, span {
     margin: 0;
@@ -62,7 +98,7 @@
   }
 
   .info-wrap:nth-child(1) {
-    margin-left: 180px;
+    margin-left: 175px;
   }
 
   .info-wrap .gallery-info_ico {
@@ -85,6 +121,7 @@
     text-align: left;
     color: #9b9b9b;
   }
+
 
   .gallery_send-message {
     cursor: pointer;
@@ -119,6 +156,7 @@
   }
 
   .gallery_share-profile {
+    display: none;
     cursor: pointer;
     background: none;
     width: 162px;
@@ -262,6 +300,14 @@
 //.justify-content-lg-between
 
 @media (max-width: 992px) {
+
+  .user-buttons{
+    .user-btn{
+      width: 40px;
+      height: 40px;
+      margin-right: 2px;
+    }
+  }
   .user-view-page {
     .gallery_send-message {
       display: none;
@@ -278,7 +324,7 @@
       margin: 20px auto 0 auto;
     }
     .info-wrap {
-      margin-right: 20px;
+      margin-right: 18px;
       .gallery-info_ico {
         &.eay {
           width: 25px;
@@ -290,11 +336,11 @@
       }
     }
     .gallery-info_numbers {
-      font-size: 18px;
+      font-size: 19px;
 
     }
     .gallery-info_description {
-      font-size: 12px;
+      font-size: 11px;
     }
   }
 }
@@ -325,7 +371,7 @@
     }
     .user-info-row {
       width: 100%;
-      padding-left: 155px;
+      padding-left: 160px;
       .wrap {
         display: flex;
         justify-content: space-between;
@@ -372,7 +418,7 @@
     }
     .user-info-row {
       width: 100%;
-      padding-left: 120px;
+      padding-left: 130px;
       .wrap {
         display: flex;
         justify-content: space-between;
