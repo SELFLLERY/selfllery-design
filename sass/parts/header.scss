@@ -10,7 +10,8 @@
 }
 
 .header-top {
-  background: #cf3bfe;
+  //background: #cf3bfe;
+  background-image: linear-gradient(358deg, #d64dff, #983bfe);
   position: fixed;
   top: 0;
   width: 100%;
@@ -45,14 +46,16 @@
   /*height: 36px;*/
   height: 32px;
   border-radius: 18px;
-  background-color: #7ed321;
-  border-color: #7ed321;
+  //background-color: #7ed321;
+  background-image: linear-gradient(351deg, #b4f83c, #4be500);
+  border-color: transparent;
   line-height: 19px;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #7ed321;
-  border-color: #7ed321;
+  background-image: linear-gradient(0deg, #4edf08, #4edf08);
+  //background-color: #4edf08;
+  border-color: transparent;
 }
 
 .btn-text {
@@ -193,6 +196,9 @@
 /*section-info*/
 .section-info a{
   color: #4a4a4a;
+}
+.section-info a:hover{
+  color: #9131ff;;
 }
 
 .section-info .number{
