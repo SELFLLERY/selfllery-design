@@ -1,0 +1,158 @@
+.lang-link {
+    padding-left: 5px;
+    font-weight: normal;
+    color: #4a4a4a;
+}
+
+.lang-flag {
+    width: 22px;
+    height: 16px;
+    float: left;
+    margin-top: 3px;
+    background: url('/images/sprites/flags_sprite.png') no-repeat
+}
+.en {background-position: -136px -5px;}
+.ru {background-position: -32px -5px;}
+.he {background-position: -162px -5px;}
+.ja {background-position: -344px -5px;}
+.zh {background-position: -188px -5px;}
+.fr {background-position: -240px -5px;}
+.de {background-position: -266px -5px;}
+.it {background-position: -318px -5px;}
+.es {background-position: -58px -5px;}
+.cs {background-position: -214px -5px;}
+.pl {background-position: -370px -5px;}
+.pt {background-position: -6px -5px;}
+.uk {background-position: -84px -5px;}
+.hi {background-position: -292px -5px;}
+.ar {background-position: -110px -5px;}
+.ko {background-position: -396px -5px;}
+
+header .hidden-block .btn-text {
+    margin-left: 0!important;
+}
+
+header .header-top a {
+    text-decoration: none;
+}
+
+.section-gallery-info .gallery-info_description {
+    text-transform: lowercase;
+}
+
+.section-gallery-info .user-info-row div,
+.section-gallery-info .user-info-row p,
+.section-gallery-info .user-info-row img {
+    cursor: default;
+}
+
+
+.section-gallery-info .user-info-row a * {
+    cursor: pointer;
+}
+
+.photos-page .popup {
+    position: relative;
+}
+
+.photos-page .preview-photo {
+    position: absolute;
+    height: 100%;
+}
+
+.photos-page .full-photo {
+    position: relative;
+    z-index: 1;
+}
+
+.photos-page .popup-show {
+    z-index: 10000;
+}
+
+.photos-page .comment-text {
+    margin-top: 0;
+}
+
+.tags_elements {
+    text-transform: lowercase;
+}
+
+.comments-section .form-send .form-send_btn {
+    width: inherit;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.comments-section .form-send .form-send_btn.green {
+    color: #fff;
+}
+
+.comments-section .comment .comment-text {
+    border: none;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+.comments-section .comment .comment-right-side {
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 7px;
+    margin-bottom: 2px;
+}
+
+.comments-section .comment .user-nick {
+    margin-bottom: 5px;
+}
+
+.comments-section .comment .user-name {
+    margin-bottom: 0;
+}
+
+.popup-show .img-show {
+    position: fixed;
+}
+
+.popup-show  .img-show .closed {
+    top: 5%;
+    right: 5%
+}
+
+.photos-page .user-comment_text {
+    height: inherit;
+}
+
+.section-quest .link .link-text {
+    width: 230px;
+}
+
+.comments-section .text-area-comment {
+    padding: 7px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 767px)  {
+    header .header-block {
+        margin-bottom: 12px;
+    }
+}
+
+.img-show img {
+    width: auto;
+    height: auto;
+    max-height: 95vh;
+    max-width: 95vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-show .closed {
+    top: 4%;
+    right: 2%;
+    position: fixed;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.user-view-page .section-gallery-top {
+    background: url('/img/other/bg-user.png') no-repeat top center/cover;
+}

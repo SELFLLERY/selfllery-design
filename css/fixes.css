@@ -1,0 +1,52 @@
+body {
+    margin-top: 0!important;
+    padding-top: 0!important;
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
+}
+
+body *,
+body *::before,
+body *::after {
+    box-sizing: content-box; // 1
+}
+
+body header *, body footer *,
+body header *::before, body footer *::before,
+body header *::after, body footer *::after {
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 100% !important;
+}
+
+header .header-top {
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+footer.footer-bg {
+    margin-top: 0;
+}
+
+.wrapper {
+    margin-top: 40px;
+}
+
+.container-spaced {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+header #header {
+    overflow: inherit;!important;
+}
+
+header .hidden-block .btn-text {
+    margin-left: 0!important;
+}
+
+header .header-top a {
+    text-decoration: none;
+}
