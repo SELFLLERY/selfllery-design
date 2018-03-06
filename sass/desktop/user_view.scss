@@ -107,6 +107,34 @@
     margin-right: 7px;
   }
 
+  .photo-loading {
+    max-width: 960px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    &-btn{
+      width: 100%;
+      border-radius: 19px;
+      border: solid 1px #9b9b9b;
+      background: #fff;
+      padding: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #4a4a4a;
+      cursor: pointer;
+      &:hover {
+        background-color: #f1f1f1;
+        border-color: transparent;
+        color: #9b9b9b;
+      }
+    }
+
+  }
+
   .gallery-info_numbers {
     font-size: 20px;
     font-weight: 300;
