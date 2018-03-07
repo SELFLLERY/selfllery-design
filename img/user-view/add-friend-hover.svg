@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
     <defs>
-        <linearGradient id="c" x1="23.897%" x2="84.886%" y1="0%" y2="83.289%">
-            <stop offset="0%" stop-color="#CE95FF"/>
-            <stop offset="100%" stop-color="#763BFE"/>
-        </linearGradient>
         <circle id="b" cx="20.5" cy="20.5" r="20.5"/>
         <filter id="a" width="129.3%" height="129.3%" x="-14.6%" y="-7.3%" filterUnits="objectBoundingBox">
             <feMorphology in="SourceAlpha" radius="1.5" result="shadowSpreadOuter1"/>
@@ -15,7 +11,7 @@
     <g fill="none" fill-rule="evenodd">
         <g transform="translate(3)">
             <use fill="#000" filter="url(#a)" xlink:href="#b"/>
-            <use fill="url(#c)" xlink:href="#b"/>
+            <use fill="#9131FF" xlink:href="#b"/>
         </g>
         <g fill="#FFF">
             <path d="M18.48 12.997c0-2.517 1.942-4.488 4.42-4.488 2.477 0 4.417 1.971 4.417 4.488 0 2.517-1.94 4.488-4.418 4.488-2.477 0-4.42-1.971-4.42-4.488m6.5 16.494h-7.74c-1.474 0-2.673-1.217-2.673-2.712v-1.353c0-3.547 2.841-6.432 6.335-6.432h4.079c2.39 0 4.475 1.283 5.582 3.443a.817.817 0 0 0 .494.375.69.69 0 0 0 .536-.084.851.851 0 0 0 .397-.541c.029-.16-.001-.308-.07-.396-1.06-2.062-2.93-3.54-5.128-4.056l-.178-.04.14-.118c1.303-1.074 2.05-2.744 2.05-4.58 0-3.306-2.65-5.997-5.904-5.997-3.256 0-5.904 2.69-5.904 5.997 0 1.74.767 3.452 2.052 4.583l.13.114-.17.04c-3.48.843-6.007 4.077-6.007 7.692v1.353C13 29.107 14.864 31 17.155 31h7.741c.451 0 .743-.296.743-.755 0-.281-.086-.754-.66-.754"/>

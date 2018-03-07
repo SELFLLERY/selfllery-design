@@ -20,10 +20,16 @@
     &.add-friend{
       background: url("/img/user-view/add-friend.svg");
       background-size: contain;
+      &:hover {
+        background: url("/img/user-view/add-friend-hover.svg");
+      }
     }
     &.send-message{
       background: url("/img/user-view/send-message.svg");
       background-size: contain;
+      &:hover {
+        background: url("/img/user-view/send-message-hover.svg");
+      }
     }
     &.social-share{
       background: url("/img/user-view/share.svg");

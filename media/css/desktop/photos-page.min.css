@@ -6,7 +6,7 @@
     -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
             box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2); }
   .photos-page .author-photo {
-    max-width: 746px;
+    max-width: 960px;
     line-height: 40px; }
   .photos-page .author-photo_name {
     font-size: 14px;
@@ -18,6 +18,14 @@
     font-weight: 600;
     line-height: normal;
     color: #9b9b9b; }
+  .photos-page .arrow-prev, .photos-page .arrow-next {
+    cursor: pointer; }
+  .photos-page .arrow-prev {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    margin-right: 30px; }
+  .photos-page .arrow-next {
+    margin-left: 30px; }
   .photos-page .dropdown-menu_like {
     width: 281px;
     left: -111px !important;

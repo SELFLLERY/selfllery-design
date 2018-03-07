@@ -8,7 +8,8 @@
 
   /*author-photo*/
   .author-photo {
-    max-width: 746px;
+    //max-width: 746px;
+    max-width: 960px;
     line-height: 40px;
   }
 
@@ -25,6 +26,18 @@
     line-height: normal;
     color: #9b9b9b;
   }
+
+  .arrow-prev, .arrow-next {
+    cursor: pointer;
+  }
+  .arrow-prev {
+    transform: rotate(180deg);
+    margin-right: 30px;
+  }
+  .arrow-next {
+    margin-left: 30px;
+  }
+
 
   .dropdown-menu_like {
     width: 281px;
