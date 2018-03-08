@@ -309,7 +309,9 @@ textarea {
   width: 474px;
   height: 60px;
   border-radius: 6px;
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  border-color: #f1f1f1;
+  padding: 10px 15px; }
 
 .form-send .form-send_btn {
   width: 77px;
@@ -807,6 +809,17 @@ textarea {
   top: 22%;
   right: 3%; }
 
+.ring-block, .chat-block {
+  position: relative; }
+  .ring-block .ring-on, .chat-block .ring-on, .chat-block .chat-on {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-image: linear-gradient(324deg, #b4f83c, #4be500); }
+
 .you_number {
   font-weight: 600;
   letter-spacing: -0.6px;
@@ -827,7 +840,8 @@ textarea {
   content: none; }
 
 .dropdown-menu_header {
-  top: 15px !important;
+  top: 9px !important;
+  left: -13px !important;
   border-color: transparent;
   border-radius: 5px;
   border-top-left-radius: 0px;
@@ -836,14 +850,15 @@ textarea {
           box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
   padding-left: 13px;
   padding-right: 8px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  min-width: 0; }
 
 .dropdown-item_header {
-  padding: .25rem 3rem .25rem .25rem;
+  padding: .25rem 2rem .25rem .25rem;
   font-size: 14px; }
 
 .dropdown-item_header span {
-  width: 17px; }
+  width: 24px; }
 
 /*section-info*/
 .section-info a {

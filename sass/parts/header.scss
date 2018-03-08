@@ -144,10 +144,30 @@
   position: absolute;
 }
 
-.close-search{
+.close-search {
   position: absolute;
   top: 22%;
   right: 3%;
+}
+
+.ring-block {
+  position: relative;
+  & .ring-on {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-image: linear-gradient(324deg, #b4f83c, #4be500);
+  }
+}
+
+.chat-block {
+  @extend .ring-block;
+  & .chat-on {
+    @extend .ring-on;
+  }
 }
 
 .you_number {
@@ -174,7 +194,8 @@
 }
 
 .dropdown-menu_header {
-  top: 15px !important;
+  top: 9px !important;
+  left: -13px !important;
   border-color: transparent;
   border-radius: 5px;
   border-top-left-radius: 0px;
@@ -183,15 +204,16 @@
   padding-left: 13px;
   padding-right: 8px;
   line-height: 1.5;
+  min-width: 0;
 }
 
 .dropdown-item_header {
-  padding: .25rem 3rem .25rem .25rem;
+  padding: .25rem 2rem .25rem .25rem;
   font-size: 14px;
 }
 
 .dropdown-item_header span {
-  width: 17px;
+  width: 24px;
 }
 
 /*section-info*/
