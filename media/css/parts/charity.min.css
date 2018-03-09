@@ -1,13 +1,15 @@
 .rating-progress, .rating-progress-user, .rating-progress-user_big, .rating-progress-user_like, .rating-progress-user_comment {
   position: relative;
   background: none;
-  width: 60px;
-  height: 60px;
+  width: 54px;
+  height: 54px;
   border: 3px solid #d8d8d8;
   border-radius: 50%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex; }
+  display: inline-flex;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5); }
   .rating-progress-user {
     background: #f1f1f1;
     width: 41px;
@@ -15,6 +17,7 @@
     border: 2px solid #d8d8d8;
     top: 13px; }
     .rating-progress-user_big {
+      display: block;
       background: #f1f1f1;
       width: 150px;
       height: 150px;
@@ -65,7 +68,16 @@
   position: absolute;
   left: 0;
   top: 0;
-  height: 147px;
-  width: 147px;
+  height: 54px;
+  width: 54px;
   border-radius: 50%;
-  z-index: 0; }
+  z-index: 10;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5); }
+
+@media (max-width: 520px) {
+  .rating-progress-user_big .rating-progress_svg {
+    width: 110px !important;
+    height: 110px !important; }
+    .rating-progress-user_big .rating-progress_svg circle {
+      r: 49 !important; } }

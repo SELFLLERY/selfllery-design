@@ -155,6 +155,7 @@ hr{
 .news-block {
   display:  flex;
   background-color:  #fff;
+  height: 140px;
   box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
 }
 .section-news a:hover {
@@ -218,6 +219,10 @@ hr{
   letter-spacing: normal;
   text-align: left;
   color: #4a4a4a;
+}
+
+.padding-5 {
+  padding: 5px;
 }
 
 /*.row.display-flex {

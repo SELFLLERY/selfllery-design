@@ -138,6 +138,7 @@ hr{
   display: -ms-flexbox;
   display: flex;
   background-color: #fff;
+  height: 140px;
   -webkit-box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2);
           box-shadow: 0 3px 6px -3px rgba(0, 0, 0, 0.2); }
 
@@ -199,6 +200,9 @@ hr{
   letter-spacing: normal;
   text-align: left;
   color: #4a4a4a; }
+
+.padding-5 {
+  padding: 5px; }
 
 /*.row.display-flex {
   display: flex;
