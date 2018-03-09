@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19@3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20.5" cy="20.5" r="20.5"></circle>
+        <filter x="-14.6%" y="-7.3%" width="129.3%" height="129.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0.0001 0 20.678 0 20.678 21.248 0.0001 21.248"></polygon>
+    </defs>
+    <g id="USER_VIEW_NEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-935.000000, -452.000000)">
+        <g id="Group-19" transform="translate(938.000000, 452.000000)">
+            <g id="Group-8">
+                <g id="Oval-2-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#484848" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Page-1" transform="translate(9.000000, 10.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M17.0371,20.248 C15.5811,20.248 14.3961,19.066 14.3961,17.613 C14.3961,17.142 14.5301,16.706 14.7481,16.323 C14.9231,16.017 15.1531,15.75 15.4311,15.536 C15.8771,15.191 16.4301,14.977 17.0371,14.977 C18.4931,14.977 19.6781,16.16 19.6781,17.613 C19.6781,19.066 18.4931,20.248 17.0371,20.248 M3.6401,13.739 C2.1841,13.739 1.0001,12.557 1.0001,11.103 C1.0001,9.65 2.1841,8.468 3.6401,8.468 C4.4011,8.468 5.0841,8.796 5.5661,9.313 C5.7941,9.558 5.9751,9.844 6.0991,10.161 L6.2571,11.337 C6.2251,11.685 6.1291,12.012 5.9741,12.308 C5.5341,13.154 4.6591,13.739 3.6401,13.739 M14.4521,3.58 C14.4521,2.157 15.6111,1 17.0371,1 C18.4631,1 19.6231,2.157 19.6231,3.58 C19.6231,5.003 18.4631,6.16 17.0371,6.16 C16.0161,6.16 15.1391,5.561 14.7201,4.701 C14.5671,4.389 14.4761,4.045 14.4621,3.68 C14.4611,3.646 14.4521,3.614 14.4521,3.58 M17.0371,13.977 C16.0161,13.977 15.0951,14.401 14.4331,15.08 L7.2121,11.775 C7.2531,11.557 7.2801,11.333 7.2801,11.103 C7.2801,10.573 7.1601,10.073 6.9551,9.618 L13.8771,5.234 C14.4771,6.373 15.6611,7.16 17.0371,7.16 C19.0151,7.16 20.6231,5.554 20.6231,3.58 C20.6231,1.606 19.0151,0 17.0371,0 C15.0601,0 13.4521,1.606 13.4521,3.58 C13.4521,3.818 13.4771,4.05 13.5221,4.275 L6.4131,8.776 C5.7451,7.983 4.7571,7.468 3.6401,7.468 C1.6331,7.468 0.0001,9.099 0.0001,11.103 C0.0001,13.108 1.6331,14.739 3.6401,14.739 C5.0611,14.739 6.2821,13.913 6.8821,12.723 L13.8411,15.908 C13.5671,16.419 13.3961,16.994 13.3961,17.613 C13.3961,19.617 15.0291,21.248 17.0371,21.248 C19.0451,21.248 20.6781,19.617 20.6781,17.613 C20.6781,15.608 19.0451,13.977 17.0371,13.977" id="Fill-1" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

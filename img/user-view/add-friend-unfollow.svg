@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 18@3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="10.8103826%" y1="5.2400556%" x2="106.527068%" y2="90.1122666%" id="linearGradient-1">
+            <stop stop-color="#E8E8E8" offset="0%"></stop>
+            <stop stop-color="#9B9B9B" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="20.5" cy="20.5" r="20.5"></circle>
+        <filter x="-14.6%" y="-7.3%" width="129.3%" height="129.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="0.0001 0.451 18.5967162 0.451 18.5967162 24 0.0001 24"></polygon>
+    </defs>
+    <g id="USER_VIEW_NEW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-836.000000, -380.000000)">
+        <g id="Group-18" transform="translate(839.000000, 380.000000)">
+            <g id="Group-7">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Page-1" transform="translate(11.000000, 6.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 0.549300)">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M5.3631,6.3353 C5.3631,3.8663 7.2641,1.9313 9.6891,1.9313 C12.1151,1.9313 14.0131,3.8663 14.0131,6.3353 C14.0131,8.8043 12.1151,10.7383 9.6891,10.7383 C7.2641,10.7383 5.3631,8.8043 5.3631,6.3353 M11.7251,22.5193 L4.1481,22.5193 C2.7071,22.5193 1.5321,21.3253 1.5321,19.8573 L1.5321,18.5303 C1.5321,15.0503 4.3131,12.2193 7.7331,12.2193 L11.7251,12.2193 C14.0651,12.2193 16.1061,13.4783 17.1891,15.5973 C17.2951,15.7783 17.4751,15.9163 17.6731,15.9663 C17.8521,16.0123 18.0381,15.9813 18.1971,15.8833 C18.3981,15.7613 18.5431,15.5643 18.5861,15.3523 C18.6141,15.1943 18.5851,15.0503 18.5181,14.9633 C17.4801,12.9403 15.6501,11.4903 13.4981,10.9843 L13.3241,10.9443 L13.4621,10.8293 C14.7361,9.7753 15.4671,8.1373 15.4671,6.3353 C15.4671,3.0903 12.8751,0.4503 9.6891,0.4503 C6.5021,0.4503 3.9101,3.0903 3.9101,6.3353 C3.9101,8.0423 4.6611,9.7223 5.9181,10.8323 L6.0471,10.9443 L5.8801,10.9843 C2.4721,11.8113 0.0001,14.9843 0.0001,18.5303 L0.0001,19.8573 C0.0001,22.1423 1.8251,24.0003 4.0661,24.0003 L11.6431,24.0003 C12.0861,24.0003 12.3711,23.7093 12.3711,23.2593 C12.3711,22.9833 12.2861,22.5193 11.7251,22.5193" id="Fill-1" fill="#FFFFFF" mask="url(#mask-5)"></path>
+                    </g>
+                    <path d="M20.9998,21.8997 L13.9998,21.8997 C13.5028,21.8997 13.0998,21.4967 13.0998,20.9997 C13.0998,20.5027 13.5028,20.0997 13.9998,20.0997 L20.9998,20.0997 C21.4968,20.0997 21.8998,20.5027 21.8998,20.9997 C21.8998,21.4967 21.4968,21.8997 20.9998,21.8997" id="Fill-4" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

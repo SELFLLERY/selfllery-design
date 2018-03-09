@@ -24,6 +24,13 @@
         background: url("/img/user-view/add-friend-hover.svg");
       }
     }
+    &.add-friend-unfollow{
+      background: url("/img/user-view/add-friend-unfollow.svg");
+      background-size: contain;
+      &:hover {
+        background: url("/img/user-view/add-friend-unfollow-hover.svg");
+      }
+    }
     &.send-message{
       background: url("/img/user-view/send-message.svg");
       background-size: contain;
@@ -34,6 +41,9 @@
     &.social-share{
       background: url("/img/user-view/share.svg");
       background-size: contain;
+      &:hover {
+        background: url("/img/user-view/share-hover.svg");
+      }
     }
   }
 }
@@ -54,7 +64,9 @@
     flex-direction: column;
     height: 200px;
     padding: 0;
+    max-width: 960px;
     width: 100%;
+    margin: auto;
     background: url('/img/other/bg-user.png') no-repeat bottom center/cover;
   }
 

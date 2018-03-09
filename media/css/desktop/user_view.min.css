@@ -20,6 +20,11 @@
     background-size: contain; }
     .user-buttons .user-btn.add-friend:hover {
       background: url("/img/user-view/add-friend-hover.svg"); }
+  .user-buttons .user-btn.add-friend-unfollow {
+    background: url("/img/user-view/add-friend-unfollow.svg");
+    background-size: contain; }
+    .user-buttons .user-btn.add-friend-unfollow:hover {
+      background: url("/img/user-view/add-friend-unfollow-hover.svg"); }
   .user-buttons .user-btn.send-message {
     background: url("/img/user-view/send-message.svg");
     background-size: contain; }
@@ -28,6 +33,8 @@
   .user-buttons .user-btn.social-share {
     background: url("/img/user-view/share.svg");
     background-size: contain; }
+    .user-buttons .user-btn.social-share:hover {
+      background: url("/img/user-view/share-hover.svg"); }
 
 .user-view-page h2, .user-view-page h3, .user-view-page p, .user-view-page span {
   margin: 0;
@@ -49,7 +56,9 @@
           flex-direction: column;
   height: 200px;
   padding: 0;
+  max-width: 960px;
   width: 100%;
+  margin: auto;
   background: url("/img/other/bg-user.png") no-repeat bottom center/cover; }
 
 .user-view-page .section-gallery-top_wrap {
